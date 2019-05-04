@@ -1,3 +1,6 @@
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
+--%>
 <%@include file="/WEB-INF/jsp/template/header.jsp" %>
 
 <link rel='stylesheet' type='text/css' href='/static/paymentdetail/css/receipt.css'/>

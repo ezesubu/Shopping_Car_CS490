@@ -1,8 +1,6 @@
-/**
-* Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
-* Innocent Kateba, shuling he, Wenxin He, Tram Ly
-* Date April 20, 2019
-**/
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@include file="/WEB-INF/include.jsp"%>
 <!DOCTYPE html>

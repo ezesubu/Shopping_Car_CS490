@@ -1,9 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: chanpiseth
-  Date: 5/5/2018
-  Time: 3:13 PM
-  To change this template use File | Settings | File Templates.
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/WEB-INF/include.jsp"%>

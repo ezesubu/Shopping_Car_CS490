@@ -1,8 +1,6 @@
-/**
-* Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
-* Innocent Kateba, shuling he, Wenxin He, Tram Ly
-* Date April 20, 2019
-**/
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
+--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>

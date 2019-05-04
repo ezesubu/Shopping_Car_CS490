@@ -1,3 +1,6 @@
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
+--%>
 <%@include file="/WEB-INF/jsp/template/header.jsp" %>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">

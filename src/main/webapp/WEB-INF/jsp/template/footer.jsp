@@ -1,3 +1,6 @@
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
+--%>
 <%@include file="/WEB-INF/include.jsp"%>
 
 <!-- footer -->

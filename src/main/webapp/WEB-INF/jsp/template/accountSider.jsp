@@ -1,3 +1,6 @@
+<%--Created by Ezequiel Suarez Buitrago
+Date April 20, 2019
+--%>
 <%@include file="/WEB-INF/include.jsp"%>
 
 <div class="col-lg-3 col-md-3 col-sm-4 col-md-pull-9">
