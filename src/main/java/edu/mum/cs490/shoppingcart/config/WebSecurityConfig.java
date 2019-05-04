@@ -1,6 +1,6 @@
 package edu.mum.cs490.shoppingcart.config;
 
-import edu.mum.cs490.shoppingcart.service.UserService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,8 +17,7 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 import org.springframework.security.web.authentication.ForwardAuthenticationFailureHandler;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 /**
- * Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
- * Innocent Kateba, shuling he, Wenxin He, Tram Ly
+ * Created by Thomas Tibebu,
  * Date April 20, 2019
  **/
 @Configuration
@@ -26,10 +25,10 @@ import org.springframework.security.web.authentication.SavedRequestAwareAuthenti
 @EnableGlobalMethodSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private final UserService userService;
+    private final IUserService userService;
 
     @Autowired
-    public WebSecurityConfig(UserService userService) {
+    public WebSecurityConfig(IUserService userService) {
         this.userService = userService;
     }
 

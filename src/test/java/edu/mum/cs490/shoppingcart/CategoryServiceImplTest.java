@@ -2,7 +2,7 @@ package edu.mum.cs490.shoppingcart;
 
 import edu.mum.cs490.shoppingcart.domain.Category;
 import edu.mum.cs490.shoppingcart.repository.CategoryRepository;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
 import edu.mum.cs490.shoppingcart.service.impl.CategoryServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
@@ -26,13 +26,13 @@ public class CategoryServiceImplTest {
     static class CategoryServiceImplTestContextConfiguration {
 
         @Bean
-        public CategoryService categoryService() {
+        public ICategoryService categoryService() {
             return new CategoryServiceImpl();
         }
     }
 
     @Autowired
-    private CategoryService categoryService;
+    private ICategoryService categoryService;
 
     @MockBean
     private CategoryRepository categoryRepository;

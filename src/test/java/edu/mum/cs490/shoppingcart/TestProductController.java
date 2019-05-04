@@ -2,9 +2,9 @@ package edu.mum.cs490.shoppingcart;
 
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.ProductForm;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,12 +34,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class TestProductController {
 
     @Autowired
-    private ProductService productService;
+    private IProductService productService;
     @Autowired
-    private VendorService vendorService;
+    private IVendorService vendorService;
 
     @Autowired
-    private CategoryService categoryService;
+    private ICategoryService categoryService;
     @Autowired
     private MockMvc mockMvc;
 

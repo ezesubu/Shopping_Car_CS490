@@ -9,5 +9,5 @@ Date April 20, 2019
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="my" tagdir="/WEB-INF/tags" %>
 
-<c:set var="signedUser" value="<%=edu.mum.cs490.shoppingcart.utils.SignedUser.getSignedUser()%>"/>
+<c:set var="signedUser" value="<%=edu.mum.cs490.shoppingcart.utility.SignedUserUtility.getSignedUser()%>"/>
 <spring:eval var="resourcePath" expression="@environment.getProperty('resource.path')" scope="application"/>

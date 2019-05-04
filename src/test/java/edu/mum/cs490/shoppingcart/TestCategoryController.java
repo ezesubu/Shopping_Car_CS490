@@ -3,7 +3,7 @@ package edu.mum.cs490.shoppingcart;
 
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.user.CategoryForm;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class TestCategoryController {
 
     @Autowired
-    private CategoryService categoryService;
+    private ICategoryService categoryService;
     @Autowired
     private MockMvc mockMvc;
     @Test

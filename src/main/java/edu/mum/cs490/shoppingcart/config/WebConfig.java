@@ -8,8 +8,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.web.servlet.config.annotation.*;
 
 /**
- * Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
- * Innocent Kateba, shuling he, Wenxin He, Tram Ly
+ * Created by Thomas Tibebu,
  * Date April 20, 2019
  **/
 @Configuration

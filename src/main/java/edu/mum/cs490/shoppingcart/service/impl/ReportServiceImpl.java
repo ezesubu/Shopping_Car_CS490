@@ -1,9 +1,9 @@
 package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.OrderDetail;
-import edu.mum.cs490.shoppingcart.service.OrderDetailService;
-import edu.mum.cs490.shoppingcart.service.ReportService;
-import edu.mum.cs490.shoppingcart.utils.jpreport.DataSourceReport;
+import edu.mum.cs490.shoppingcart.service.IOrderDetailService;
+import edu.mum.cs490.shoppingcart.service.IReportService;
+import edu.mum.cs490.shoppingcart.utility.jpreport.DataSourceReport;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.design.JasperDesign;
 import net.sf.jasperreports.engine.export.JRPdfExporter;
@@ -30,10 +30,10 @@ import java.util.List;
  * Date April 20, 2019
  **/
 @Service
-public class ReportServiceImpl implements ReportService{
+public class ReportServiceImpl implements IReportService {
 
 	@Autowired
-	private OrderDetailService orderDetailService;
+	private IOrderDetailService orderDetailService;
 
 	private JasperReportsContext jasperReportsContext;
 	

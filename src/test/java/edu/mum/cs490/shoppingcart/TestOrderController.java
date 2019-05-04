@@ -6,9 +6,9 @@ import edu.mum.cs490.shoppingcart.domain.OrderDetail;
 import edu.mum.cs490.shoppingcart.model.ShoppingCart;
 import edu.mum.cs490.shoppingcart.model.form.CustomerOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.PaymentForm;
-import edu.mum.cs490.shoppingcart.service.OrderService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
-import edu.mum.cs490.shoppingcart.service.UserService;
+import edu.mum.cs490.shoppingcart.service.IOrderService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,16 +34,16 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class TestOrderController {
 
     @Autowired
-    private OrderService orderService;
+    private IOrderService orderService;
 
     @Autowired
     private OrderController orderController;
 
     @Autowired
-    private ProductService productService;
+    private IProductService productService;
 
     @Autowired
-    private UserService userService;
+    private IUserService userService;
 
     @Mock
     private Principal principal;

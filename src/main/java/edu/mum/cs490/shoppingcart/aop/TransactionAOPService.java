@@ -8,8 +8,8 @@ package edu.mum.cs490.shoppingcart.aop;
 import edu.mum.cs490.shoppingcart.domain.Transaction;
 import edu.mum.cs490.shoppingcart.domain.TransactionType;
 import edu.mum.cs490.shoppingcart.repository.TransactionRepository;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
-import edu.mum.cs490.shoppingcart.utils.DoubleRoundUp;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
+import edu.mum.cs490.shoppingcart.utility.DoubleRoundUpUtility;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -26,7 +26,7 @@ import org.springframework.stereotype.Component;
 public class TransactionAOPService {
 
     @Autowired
-    private AESConverter aesConverter;
+    private AESConverterUtility aesConverter;
 
     @Autowired
     private TransactionRepository transactionRepository;
@@ -39,7 +39,7 @@ public class TransactionAOPService {
      * @return
      * @throws Throwable
      */
-    @Around("execution(* edu.mum.cs490.shoppingcart.utils.HttpSender.doPostTransactionToApi(..))&& args(data)")
+    @Around("execution(* edu.mum.cs490.shoppingcart.utility.HttpSenderUtility.doPostTransactionToApi(..))&& args(data)")
     public Object aopEncryptDecryptService(ProceedingJoinPoint pjp, String data) throws Throwable {
 //        System.out.println("# AOP BEFORE (5) #  is called on " + pjp.getSignature().toShortString() + " " + data);
         String encryptedData;
@@ -57,9 +57,9 @@ public class TransactionAOPService {
     }
 
 
-    @Around("execution(* edu.mum.cs490.shoppingcart.service.PaymentService.doTransaction(..))&& args(txnId, srcCardNo, expirationDate, nameOnCard, CVV, zipCode, cardType, amount, dstCardNo, transactionType)")
+    @Around("execution(* edu.mum.cs490.shoppingcart.service.IPaymentService.doTransaction(..))&& args(txnId, srcCardNo, expirationDate, nameOnCard, CVV, zipCode, cardType, amount, dstCardNo, transactionType)")
     public Object aopInternalEncryptDecryptService(ProceedingJoinPoint pjp, String txnId, String srcCardNo, String expirationDate, String nameOnCard, String CVV, String zipCode, String cardType, Double amount, String dstCardNo, TransactionType transactionType) throws Throwable {
-        Transaction transaction = new Transaction(srcCardNo, cardType, dstCardNo, DoubleRoundUp.roundUp(amount), "", txnId, transactionType);
+        Transaction transaction = new Transaction(srcCardNo, cardType, dstCardNo, DoubleRoundUpUtility.roundUp(amount), "", txnId, transactionType);
         try {
             srcCardNo = aesConverter.decrypt(srcCardNo);
 //            cardType = aesConverter.decrypt(cardType);
@@ -73,7 +73,7 @@ public class TransactionAOPService {
             System.err.println(e.getMessage());
         }
         System.out.println("decrypted data - " + txnId + " " + srcCardNo + " " + expirationDate + " " + nameOnCard + " " + CVV + " " + zipCode + " " + cardType + " " + amount + " " + dstCardNo);
-        Object retVal = pjp.proceed(new Object[]{txnId, srcCardNo, expirationDate, nameOnCard, CVV, zipCode, cardType, DoubleRoundUp.roundUp(amount), dstCardNo, transactionType});
+        Object retVal = pjp.proceed(new Object[]{txnId, srcCardNo, expirationDate, nameOnCard, CVV, zipCode, cardType, DoubleRoundUpUtility.roundUp(amount), dstCardNo, transactionType});
         transaction.setResult(retVal.toString());
         transactionRepository.save(transaction);
         return retVal;

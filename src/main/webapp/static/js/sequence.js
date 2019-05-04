@@ -1,7 +1,7 @@
 /*
  * Sequence.js
  *
- * The responsive CSS animation framework for creating unique sliders,
+ * The responsive CSS animation springboot for creating unique sliders,
  * presentations, banners, and other step-based applications.
  *
  * @link https://github.com/IanLunn/Sequence

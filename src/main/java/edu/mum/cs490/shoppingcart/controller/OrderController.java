@@ -5,13 +5,13 @@ import edu.mum.cs490.shoppingcart.model.ShoppingCart;
 import edu.mum.cs490.shoppingcart.model.form.CustomerOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.GuestOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.PaymentForm;
-import edu.mum.cs490.shoppingcart.service.CustomerService;
-import edu.mum.cs490.shoppingcart.service.MailService;
-import edu.mum.cs490.shoppingcart.service.OrderService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
+import edu.mum.cs490.shoppingcart.service.ICustomerService;
+import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.service.IOrderService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
 import edu.mum.cs490.shoppingcart.service.impl.MockPaymentServiceImpl;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
-import edu.mum.cs490.shoppingcart.utils.SignedUser;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
+import edu.mum.cs490.shoppingcart.utility.SignedUserUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -35,21 +35,21 @@ import java.util.Map;
 @Controller
 @RequestMapping("order")
 public class OrderController {
-    private final OrderService orderService;
+    private final IOrderService orderService;
 
-    private final ProductService productService;
+    private final IProductService productService;
 
-    private final CustomerService customerService;
+    private final ICustomerService customerService;
 
     private final MockPaymentServiceImpl mockPaymentService;
 
-    private final AESConverter aesConverter;
+    private final AESConverterUtility aesConverter;
 
-    private final MailService mailService;
+    private final IMailService mailService;
 
     @Autowired
-    public OrderController(OrderService orderService, MockPaymentServiceImpl mockPaymentService, CustomerService customerService,
-                           ProductService productService, AESConverter aesConverter, MailService mailService) {
+    public OrderController(IOrderService orderService, MockPaymentServiceImpl mockPaymentService, ICustomerService customerService,
+                           IProductService productService, AESConverterUtility aesConverter, IMailService mailService) {
         this.orderService = orderService;
         this.mockPaymentService = mockPaymentService;
         this.productService = productService;
@@ -76,7 +76,7 @@ public class OrderController {
 
     @GetMapping("customer/all/{page}")
     public String getAllCustomerOrderByPage(Model model, @PathVariable("page") int page) {
-        Customer customer = (Customer) SignedUser.getSignedUser();
+        Customer customer = (Customer) SignedUserUtility.getSignedUser();
         if (customer == null || customer.getId() == null) {
             return "redirect:/login";
         }
@@ -96,7 +96,7 @@ public class OrderController {
     @GetMapping("customer/{orderId}")
     public String getCustomerOrder(Model model, @PathVariable("orderId") Integer orderId) {
         Order order = orderService.findById(orderId);
-        Customer customer = (Customer) SignedUser.getSignedUser();
+        Customer customer = (Customer) SignedUserUtility.getSignedUser();
         if (customer == null || customer.getId() == null) {
             return "redirect:/login";
         }
@@ -179,7 +179,7 @@ public class OrderController {
         if (sc == null || sc.getOrderDetails().isEmpty()) {
             return "order/emptycart";
         }
-        Customer customer = (Customer) SignedUser.getSignedUser();
+        Customer customer = (Customer) SignedUserUtility.getSignedUser();
         if (customer == null || customer.getId() == null) {
             return "redirect:/login";
         }
@@ -197,7 +197,7 @@ public class OrderController {
         } else if (bindingResult.hasErrors()) {
             return "order/checkoutcart";
         }
-        User user = SignedUser.getSignedUser();
+        User user = SignedUserUtility.getSignedUser();
         List<OrderDetail> orderdetails = ((ShoppingCart) session.getAttribute("shoppingcart")).getOrderDetails();
         Order order = new Order();
         order.receiveCustomerShippingForm(user, customerOrderShippingForm);

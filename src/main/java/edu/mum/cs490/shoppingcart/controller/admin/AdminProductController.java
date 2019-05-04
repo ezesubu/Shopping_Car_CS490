@@ -5,8 +5,8 @@ import edu.mum.cs490.shoppingcart.domain.Product;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.ProductForm;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -27,12 +27,12 @@ public class AdminProductController {
 
     private Path path;
 
-    private final ProductService productService;
+    private final IProductService productService;
 
-    private final CategoryService categoryService;
+    private final ICategoryService categoryService;
 
     @Autowired
-    public AdminProductController(ProductService productService, CategoryService categoryService) {
+    public AdminProductController(IProductService productService, ICategoryService categoryService) {
         this.productService = productService;
         this.categoryService = categoryService;
     }

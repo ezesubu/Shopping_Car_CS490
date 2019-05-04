@@ -1,9 +1,9 @@
 package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.*;
-import edu.mum.cs490.shoppingcart.service.AdminService;
-import edu.mum.cs490.shoppingcart.service.MailService;
-import edu.mum.cs490.shoppingcart.utils.EmailUtil;
+import edu.mum.cs490.shoppingcart.service.IAdminService;
+import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.utility.EmailUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,15 +18,15 @@ import java.util.stream.Collectors;
  * Date April 20, 2019
  **/
 @Service
-public class MailServiceImpl implements MailService {
+public class MailServiceImpl implements IMailService {
 
-    private final EmailUtil emailUtil;
-    private final AdminService adminService;
+    private final EmailUtility emailUtil;
+    private final IAdminService adminService;
     private final static DecimalFormat df = new DecimalFormat("###.##");
     private final static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     @Autowired
-    public MailServiceImpl(EmailUtil emailUtil, AdminService adminService){
+    public MailServiceImpl(EmailUtility emailUtil, IAdminService adminService){
         this.adminService=adminService;
         this.emailUtil = emailUtil;
     }

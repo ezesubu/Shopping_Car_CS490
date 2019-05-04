@@ -4,10 +4,10 @@ import edu.mum.cs490.shoppingcart.domain.Admin;
 import edu.mum.cs490.shoppingcart.domain.Customer;
 import edu.mum.cs490.shoppingcart.domain.User;
 import edu.mum.cs490.shoppingcart.domain.Vendor;
-import edu.mum.cs490.shoppingcart.service.AdminService;
-import edu.mum.cs490.shoppingcart.service.CustomerService;
-import edu.mum.cs490.shoppingcart.service.UserService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.IAdminService;
+import edu.mum.cs490.shoppingcart.service.ICustomerService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,13 +22,13 @@ import java.util.List;
 @RestController
 public class UserTestRestController {
 
-    private final AdminService adminService;
-    private final VendorService vendorService;
-    private final CustomerService customerService;
-    private final UserService userService;
+    private final IAdminService adminService;
+    private final IVendorService vendorService;
+    private final ICustomerService customerService;
+    private final IUserService userService;
 
     @Autowired
-    public UserTestRestController(AdminService adminService, VendorService vendorService, CustomerService customerService, UserService<User> userService) {
+    public UserTestRestController(IAdminService adminService, IVendorService vendorService, ICustomerService customerService, IUserService<User> userService) {
         this.adminService = adminService;
         this.vendorService = vendorService;
         this.customerService = customerService;

@@ -4,7 +4,7 @@ import edu.mum.cs490.shoppingcart.domain.Product;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.repository.CategoryRepository;
 import edu.mum.cs490.shoppingcart.repository.ProductRepository;
-import edu.mum.cs490.shoppingcart.service.ProductService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -20,7 +20,7 @@ import java.util.List;
  * Date April 20, 2019
  **/
 @Service
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl implements IProductService {
 
     private final ProductRepository productRepository;
     private final CategoryRepository categoryRepository;

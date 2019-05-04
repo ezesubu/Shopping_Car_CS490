@@ -4,10 +4,10 @@ import edu.mum.cs490.shoppingcart.domain.Category;
 import edu.mum.cs490.shoppingcart.domain.Product;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.domain.Vendor;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
-import edu.mum.cs490.shoppingcart.service.UserService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,20 +23,20 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    public final UserService userService;
+    public final IUserService userService;
 
     @Autowired
-    public HomeController(UserService userService) {
+    public HomeController(IUserService userService) {
         this.userService = userService;
     }
 
     @Autowired
-    private CategoryService categoryService;
+    private ICategoryService categoryService;
 
     @Autowired
-    private ProductService productService;
+    private IProductService productService;
     @Autowired
-    private VendorService vendorService;
+    private IVendorService vendorService;
 
     @Autowired
     private ServletContext servletContext;

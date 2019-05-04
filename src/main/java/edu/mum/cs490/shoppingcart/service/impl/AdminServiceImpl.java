@@ -3,7 +3,7 @@ package edu.mum.cs490.shoppingcart.service.impl;
 import edu.mum.cs490.shoppingcart.domain.Admin;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.repository.AdminRepository;
-import edu.mum.cs490.shoppingcart.service.AdminService;
+import edu.mum.cs490.shoppingcart.service.IAdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -17,7 +17,7 @@ import java.util.List;
  * Date April 20, 2019
  **/
 @Service
-public class AdminServiceImpl extends UserServiceImpl<Admin> implements AdminService{
+public class AdminServiceImpl extends UserServiceImpl<Admin> implements IAdminService {
 
     private final AdminRepository adminRepository;
 

@@ -1,7 +1,7 @@
 package edu.mum.cs490.shoppingcart.controller;
 
 import edu.mum.cs490.shoppingcart.domain.TransactionType;
-import edu.mum.cs490.shoppingcart.service.PaymentService;
+import edu.mum.cs490.shoppingcart.service.IPaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MockPaymentController {
 
     @Autowired
-    private PaymentService paymentService;
+    private IPaymentService paymentService;
 
     /**
      * localhost:8080/mock/1/01234567890123456/2018/TEST/52557/500/1/CVV

@@ -7,7 +7,7 @@ import edu.mum.cs490.shoppingcart.model.form.user.CardDetailForm;
 import edu.mum.cs490.shoppingcart.model.form.user.CustomerForm;
 import edu.mum.cs490.shoppingcart.model.form.user.PasswordForm;
 import edu.mum.cs490.shoppingcart.model.form.user.VendorForm;
-import edu.mum.cs490.shoppingcart.service.UserService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class TestProfileController {
 
     @Autowired
-    private UserService userService;
+    private IUserService userService;
 
     @Autowired
     private MockMvc mockMvc;

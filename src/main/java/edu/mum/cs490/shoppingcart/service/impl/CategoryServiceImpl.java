@@ -3,7 +3,7 @@ package edu.mum.cs490.shoppingcart.service.impl;
 import edu.mum.cs490.shoppingcart.domain.Category;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.repository.CategoryRepository;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,7 @@ import java.util.List;
  **/
 @Service
 
-public class CategoryServiceImpl implements CategoryService {
+public class CategoryServiceImpl implements ICategoryService {
 
 
     @Autowired

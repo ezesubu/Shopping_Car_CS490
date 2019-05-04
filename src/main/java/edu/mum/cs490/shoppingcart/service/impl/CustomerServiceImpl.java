@@ -5,7 +5,7 @@ import edu.mum.cs490.shoppingcart.domain.Customer;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.repository.AddressRepository;
 import edu.mum.cs490.shoppingcart.repository.CustomerRepository;
-import edu.mum.cs490.shoppingcart.service.CustomerService;
+import edu.mum.cs490.shoppingcart.service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -19,7 +19,7 @@ import java.util.List;
  * Date April 20, 2019
  **/
 @Service
-public class CustomerServiceImpl extends UserServiceImpl<Customer> implements CustomerService{
+public class CustomerServiceImpl extends UserServiceImpl<Customer> implements ICustomerService {
 
     private final CustomerRepository repository;
     private final AddressRepository addressRepository;

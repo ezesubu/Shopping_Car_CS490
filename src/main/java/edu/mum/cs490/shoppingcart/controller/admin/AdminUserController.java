@@ -9,10 +9,10 @@ import edu.mum.cs490.shoppingcart.model.form.user.AdminForm;
 import edu.mum.cs490.shoppingcart.model.form.user.AdminSignUpForm;
 import edu.mum.cs490.shoppingcart.model.form.user.CustomerForm;
 import edu.mum.cs490.shoppingcart.model.form.user.VendorForm;
-import edu.mum.cs490.shoppingcart.service.AdminService;
-import edu.mum.cs490.shoppingcart.service.CustomerService;
-import edu.mum.cs490.shoppingcart.service.UserService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.IAdminService;
+import edu.mum.cs490.shoppingcart.service.ICustomerService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -33,16 +33,16 @@ import javax.validation.Valid;
 @RequestMapping(value = {"admin/user", "admin/u"})
 public class AdminUserController {
 
-    private final AdminService adminService;
-    private final UserService userService;
-    private final CustomerService customerService;
-    private final VendorService vendorService;
+    private final IAdminService adminService;
+    private final IUserService userService;
+    private final ICustomerService customerService;
+    private final IVendorService vendorService;
     private final PasswordEncoder passwordEncoder;
 
     private final int PAGE_SIZE = 10;
 
     @Autowired
-    public AdminUserController(AdminService adminService, UserService userService, CustomerService customerService, VendorService vendorService, PasswordEncoder passwordEncoder) {
+    public AdminUserController(IAdminService adminService, IUserService userService, ICustomerService customerService, IVendorService vendorService, PasswordEncoder passwordEncoder) {
         this.adminService = adminService;
         this.userService = userService;
         this.customerService = customerService;

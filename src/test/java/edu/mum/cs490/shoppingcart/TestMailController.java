@@ -8,9 +8,9 @@ import edu.mum.cs490.shoppingcart.domain.OrderDetail;
 import edu.mum.cs490.shoppingcart.model.ShoppingCart;
 import edu.mum.cs490.shoppingcart.model.form.CustomerOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.PaymentForm;
-import edu.mum.cs490.shoppingcart.service.MailService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
-import edu.mum.cs490.shoppingcart.service.UserService;
+import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,13 +28,13 @@ import java.util.List;
 public class TestMailController {
 
     @Autowired
-    private ProductService productService;
+    private IProductService productService;
 
     @Autowired
-    private UserService userService;
+    private IUserService userService;
 
     @Autowired
-    private MailService mailService;
+    private IMailService mailService;
 
     @Test
     public void sendEmailToCustomer() throws Exception {

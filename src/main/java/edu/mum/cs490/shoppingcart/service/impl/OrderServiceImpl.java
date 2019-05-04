@@ -1,17 +1,17 @@
 package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.*;
-import edu.mum.cs490.shoppingcart.framework.observer.*;
-import edu.mum.cs490.shoppingcart.framework.template.TransactionTemplate;
-import edu.mum.cs490.shoppingcart.framework.template.impl.PurchaseTemplateImpl;
+import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.service.IPaymentService;
+import edu.mum.cs490.shoppingcart.springboot.observer.*;
+import edu.mum.cs490.shoppingcart.springboot.template.TransactionTemplate;
+import edu.mum.cs490.shoppingcart.springboot.template.impl.PurchaseTemplateImpl;
 import edu.mum.cs490.shoppingcart.model.ShoppingCart;
 import edu.mum.cs490.shoppingcart.repository.AddressRepository;
 import edu.mum.cs490.shoppingcart.repository.CardDetailRepository;
 import edu.mum.cs490.shoppingcart.repository.OrderRepository;
 import edu.mum.cs490.shoppingcart.repository.ProductRepository;
-import edu.mum.cs490.shoppingcart.service.MailService;
-import edu.mum.cs490.shoppingcart.service.OrderService;
-import edu.mum.cs490.shoppingcart.service.PaymentService;
+import edu.mum.cs490.shoppingcart.service.IOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -30,20 +30,20 @@ import java.util.Map;
  * Date April 20, 2019
  **/
 @Service
-public class OrderServiceImpl implements OrderService {
+public class OrderServiceImpl implements IOrderService {
 
     private final OrderRepository orderRespository;
     private final CardDetailRepository cardDetailRepository;
-    private final PaymentService paymentService;
+    private final IPaymentService paymentService;
     private final AddressRepository addressRepository;
     private final ProductRepository productRepository;
-    private final MailService mailService;
+    private final IMailService mailService;
 
     private static final int PAGE_SIZE = 5;
 
     @Autowired
     public OrderServiceImpl(OrderRepository orderRepository, CardDetailRepository cardDetailRepository,
-                            PaymentService paymentService, AddressRepository addressRepository, ProductRepository productRepository, MailService mailService) {
+                            IPaymentService paymentService, AddressRepository addressRepository, ProductRepository productRepository, IMailService mailService) {
         this.orderRespository = orderRepository;
         this.cardDetailRepository = cardDetailRepository;
         this.paymentService = paymentService;

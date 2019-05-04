@@ -5,8 +5,8 @@ import edu.mum.cs490.shoppingcart.domain.Vendor;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.user.CustomerSignUpForm;
 import edu.mum.cs490.shoppingcart.model.form.user.VendorSignUpForm;
-import edu.mum.cs490.shoppingcart.service.CustomerService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.ICustomerService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -36,10 +36,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class TestUserSignController {
 
     @Autowired
-    private CustomerService customerService;
+    private ICustomerService customerService;
 
     @Autowired
-    private VendorService vendorService;
+    private IVendorService vendorService;
 
     @Autowired
     private MockMvc mockMvc;

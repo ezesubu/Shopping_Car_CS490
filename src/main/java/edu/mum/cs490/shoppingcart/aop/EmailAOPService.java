@@ -1,6 +1,6 @@
 package edu.mum.cs490.shoppingcart.aop;
 
-import edu.mum.cs490.shoppingcart.utils.EmailUtil;
+import edu.mum.cs490.shoppingcart.utility.EmailUtility;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import java.util.Properties;
 public class EmailAOPService {
 
     @Autowired
-    private EmailUtil emailUtil;
+    private EmailUtility emailUtil;
 
     private static Properties propertiesOfMail = new Properties();
     private static int delay = 0;
@@ -33,7 +33,7 @@ public class EmailAOPService {
 //        }
 //    }
 
-    @AfterThrowing("execution(* edu.mum.cs490.shoppingcart.utils.EmailUtil.sendEmail(..)) && args(toEmail, subject, body)")
+    @AfterThrowing("execution(* edu.mum.cs490.shoppingcart.utility.EmailUtility.sendEmail(..)) && args(toEmail, subject, body)")
     public void aopResendEmail(String toEmail, String subject, String body){
         try {
             if(delay == 60)
@@ -49,7 +49,7 @@ public class EmailAOPService {
         }
     }
 
-    @AfterThrowing("execution(* edu.mum.cs490.shoppingcart.utils.EmailUtil.sendEmailWithAttachment(..)) && args(toEmail, subject, body, attachmentFile, nameOfAttachment)")
+    @AfterThrowing("execution(* edu.mum.cs490.shoppingcart.utility.EmailUtility.sendEmailWithAttachment(..)) && args(toEmail, subject, body, attachmentFile, nameOfAttachment)")
     public void aopResendEmailWithAttachment(String toEmail, String subject, String body, byte[] attachmentFile, String nameOfAttachment){
         try {
             if(delay == 60)

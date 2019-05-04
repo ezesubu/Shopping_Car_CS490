@@ -1,14 +1,14 @@
 package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.*;
-import edu.mum.cs490.shoppingcart.framework.observer.*;
-import edu.mum.cs490.shoppingcart.framework.template.TransactionTemplate;
-import edu.mum.cs490.shoppingcart.framework.template.impl.VendorRegistrationTemplateImpl;
+import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.springboot.observer.*;
+import edu.mum.cs490.shoppingcart.springboot.template.TransactionTemplate;
+import edu.mum.cs490.shoppingcart.springboot.template.impl.VendorRegistrationTemplateImpl;
 import edu.mum.cs490.shoppingcart.repository.CardDetailRepository;
 import edu.mum.cs490.shoppingcart.repository.VendorRepository;
-import edu.mum.cs490.shoppingcart.service.MailService;
-import edu.mum.cs490.shoppingcart.service.PaymentService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.IPaymentService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -23,12 +23,12 @@ import java.util.List;
  * Date April 20, 2019
  **/
 @Service
-public class VendorServiceImpl extends UserServiceImpl<Vendor> implements VendorService{
+public class VendorServiceImpl extends UserServiceImpl<Vendor> implements IVendorService {
 
     protected final VendorRepository repository;
     private final CardDetailRepository cardDetailRepository;
-    private final PaymentService paymentService;
-    private final MailService mailService;
+    private final IPaymentService paymentService;
+    private final IMailService mailService;
 
     @Value("${card.detail.id.oss}")
     private Integer cardDetailIdOSS;
@@ -38,7 +38,7 @@ public class VendorServiceImpl extends UserServiceImpl<Vendor> implements Vendor
 
 
     @Autowired
-    public VendorServiceImpl(VendorRepository repository, CardDetailRepository cardDetailRepository, PaymentService paymentService, MailService mailService) {
+    public VendorServiceImpl(VendorRepository repository, CardDetailRepository cardDetailRepository, IPaymentService paymentService, IMailService mailService) {
         super(repository);
         this.repository = repository;
         this.cardDetailRepository = cardDetailRepository;

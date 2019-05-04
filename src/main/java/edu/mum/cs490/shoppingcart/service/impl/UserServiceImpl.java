@@ -5,7 +5,7 @@ import edu.mum.cs490.shoppingcart.domain.User;
 import edu.mum.cs490.shoppingcart.repository.AddressRepository;
 import edu.mum.cs490.shoppingcart.repository.CardDetailRepository;
 import edu.mum.cs490.shoppingcart.repository.UserRepository;
-import edu.mum.cs490.shoppingcart.service.UserService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -20,7 +20,7 @@ import java.util.List;
  **/
 @Primary
 @Service
-public class UserServiceImpl<T extends User> implements UserService<T> {
+public class UserServiceImpl<T extends User> implements IUserService<T> {
 
     private final UserRepository<T> userRepository;
 

@@ -3,11 +3,11 @@ package edu.mum.cs490.shoppingcart.service.impl;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import edu.mum.cs490.shoppingcart.domain.TransactionType;
 import edu.mum.cs490.shoppingcart.model.payment.mock.TransactionRequest;
-import edu.mum.cs490.shoppingcart.service.PaymentService;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
-import edu.mum.cs490.shoppingcart.utils.DoubleRoundUp;
-import edu.mum.cs490.shoppingcart.utils.HttpSender;
-import edu.mum.cs490.shoppingcart.utils.JsonConverter;
+import edu.mum.cs490.shoppingcart.service.IPaymentService;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
+import edu.mum.cs490.shoppingcart.utility.DoubleRoundUpUtility;
+import edu.mum.cs490.shoppingcart.utility.HttpSenderUtility;
+import edu.mum.cs490.shoppingcart.utility.JsonConverterUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,28 +19,28 @@ import java.security.InvalidParameterException;
  * Date April 20, 2019
  **/
 @Service
-public class MockPaymentServiceImpl implements PaymentService {
+public class MockPaymentServiceImpl implements IPaymentService {
 
     @Autowired
-    private HttpSender httpSender;
+    private HttpSenderUtility httpSender;
 
     @Autowired
-    private AESConverter aesConverter;
+    private AESConverterUtility aesConverter;
 
 
 
     @Override
     public Integer doTransaction(String txnId, String srcCardNo, String expirationDate, String nameOnCard, String CVV, String zipCode, String cardType, Double amount, String dstCardNo, TransactionType transactionType) {
 
-        System.out.println("PaymentService template method is called.");
+        System.out.println("IPaymentService template method is called.");
 
-        TransactionRequest transactionRequest = new TransactionRequest(txnId, srcCardNo, expirationDate, nameOnCard.toUpperCase(), CVV, zipCode, cardType.toUpperCase(), DoubleRoundUp.roundUp(amount), dstCardNo);
+        TransactionRequest transactionRequest = new TransactionRequest(txnId, srcCardNo, expirationDate, nameOnCard.toUpperCase(), CVV, zipCode, cardType.toUpperCase(), DoubleRoundUpUtility.roundUp(amount), dstCardNo);
 
         System.out.println("Request data : " + transactionRequest.toString());
 
         String requestData;
         try {
-            requestData = JsonConverter.<TransactionRequest>objectToJson(transactionRequest);
+            requestData = JsonConverterUtility.<TransactionRequest>objectToJson(transactionRequest);
         } catch (JsonProcessingException e) {
             throw new InvalidParameterException("Invalid parameter!");
         }

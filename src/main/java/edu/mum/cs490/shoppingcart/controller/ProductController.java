@@ -2,9 +2,9 @@ package edu.mum.cs490.shoppingcart.controller;
 
 import edu.mum.cs490.shoppingcart.domain.Product;
 import edu.mum.cs490.shoppingcart.domain.Status;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
-import edu.mum.cs490.shoppingcart.service.ProductService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
+import edu.mum.cs490.shoppingcart.service.IProductService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -21,14 +21,14 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("product")
 public class ProductController {
 
-    private final ProductService productService;
-    private final CategoryService categoryService;
-    private final VendorService vendorService;
+    private final IProductService productService;
+    private final ICategoryService categoryService;
+    private final IVendorService vendorService;
 
     private final int PAGE_SIZE = 12;
 
     @Autowired
-    public ProductController(ProductService productService, CategoryService categoryService, VendorService vendorService) {
+    public ProductController(IProductService productService, ICategoryService categoryService, IVendorService vendorService) {
         this.productService = productService;
         this.categoryService = categoryService;
         this.vendorService = vendorService;

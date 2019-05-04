@@ -4,7 +4,7 @@ import edu.mum.cs490.shoppingcart.domain.Category;
 import edu.mum.cs490.shoppingcart.domain.Status;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.CategoryForm;
-import edu.mum.cs490.shoppingcart.service.CategoryService;
+import edu.mum.cs490.shoppingcart.service.ICategoryService;
 import edu.mum.cs490.shoppingcart.service.impl.FileManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -26,7 +26,7 @@ import java.util.List;
 public class AdminCategoryController {
 
     @Autowired
-    private CategoryService categoryService;
+    private ICategoryService categoryService;
 
     @Autowired
     private FileManagementService fileManagementService;

@@ -3,11 +3,11 @@ package edu.mum.cs490.shoppingcart.controller;
 import edu.mum.cs490.shoppingcart.domain.*;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.user.*;
-import edu.mum.cs490.shoppingcart.service.MailService;
-import edu.mum.cs490.shoppingcart.service.UserService;
-import edu.mum.cs490.shoppingcart.service.VendorService;
+import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.service.IUserService;
+import edu.mum.cs490.shoppingcart.service.IVendorService;
 import edu.mum.cs490.shoppingcart.service.impl.FileManagementService;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -32,15 +32,15 @@ import java.util.List;
 @SuppressWarnings("unchecked")
 public class SignController {
 
-    private final UserService userService;
+    private final IUserService userService;
     private final PasswordEncoder passwordEncoder;
-    private final MailService mailService;
-    private final VendorService vendorService;
+    private final IMailService mailService;
+    private final IVendorService vendorService;
     private final FileManagementService fileManagementService;
-    private final AESConverter aesConverter;
+    private final AESConverterUtility aesConverter;
 
     @Autowired
-    public SignController(UserService userService, PasswordEncoder passwordEncoder, MailService mailService, VendorService vendorService, FileManagementService fileManagementService, AESConverter aesConverter) {
+    public SignController(IUserService userService, PasswordEncoder passwordEncoder, IMailService mailService, IVendorService vendorService, FileManagementService fileManagementService, AESConverterUtility aesConverter) {
         this.userService = userService;
         this.passwordEncoder = passwordEncoder;
         this.mailService = mailService;

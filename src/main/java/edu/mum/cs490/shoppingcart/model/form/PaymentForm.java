@@ -1,7 +1,7 @@
 package edu.mum.cs490.shoppingcart.model.form;
 
 import edu.mum.cs490.shoppingcart.domain.CardDetail;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
@@ -92,7 +92,7 @@ public class PaymentForm implements Serializable {
         this.cardZipcode = cardZipcode;
     }
 
-    public void transferCardDetail(CardDetail cardDetail, AESConverter aesConverter){
+    public void transferCardDetail(CardDetail cardDetail, AESConverterUtility aesConverter){
         this.cardId = cardDetail.getId();
         this.cardType = cardDetail.getCardType();
         this.cardHolderName = aesConverter.decrypt(cardDetail.getCardHolderName());

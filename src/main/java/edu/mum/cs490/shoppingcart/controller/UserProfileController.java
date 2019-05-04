@@ -3,8 +3,8 @@ package edu.mum.cs490.shoppingcart.controller;
 import edu.mum.cs490.shoppingcart.domain.*;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.user.*;
-import edu.mum.cs490.shoppingcart.service.UserService;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
+import edu.mum.cs490.shoppingcart.service.IUserService;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -27,12 +27,12 @@ import java.util.Date;
 @RequestMapping(value = "profile")
 public class UserProfileController {
 
-    private final UserService userService;
-    private final AESConverter aesConverter;
+    private final IUserService userService;
+    private final AESConverterUtility aesConverter;
     private final PasswordEncoder passwordEncoder;
 
     @Autowired
-    public UserProfileController(UserService userService, PasswordEncoder passwordEncoder, AESConverter aesConverter) {
+    public UserProfileController(IUserService userService, PasswordEncoder passwordEncoder, AESConverterUtility aesConverter) {
         this.userService = userService;
         this.passwordEncoder = passwordEncoder;
         this.aesConverter = aesConverter;

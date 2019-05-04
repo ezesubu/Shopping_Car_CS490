@@ -4,7 +4,7 @@ import edu.mum.cs490.shoppingcart.domain.*;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.ReportFilterForm;
 import edu.mum.cs490.shoppingcart.service.*;
-import edu.mum.cs490.shoppingcart.utils.jpreport.DataSourceReport;
+import edu.mum.cs490.shoppingcart.utility.jpreport.DataSourceReport;
 import javassist.NotFoundException;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
@@ -39,19 +39,19 @@ import java.util.List;
 @RequestMapping("/report")
 public class ReportController {
 
-    private final OrderDetailService orderDetailService;
-    private final VendorService vendorService;
-    private final CategoryService categoryService;
-    private final MailService mailService;
+    private final IOrderDetailService orderDetailService;
+    private final IVendorService vendorService;
+    private final ICategoryService categoryService;
+    private final IMailService mailService;
 
     @Autowired
-    ReportService reportService;
+    IReportService reportService;
 
     @Autowired
     DataSourceReport dataSourceReport;
 
     @Autowired
-    public ReportController(OrderDetailService orderDetailService, VendorService vendorService, CategoryService categoryService, MailService mailService) {
+    public ReportController(IOrderDetailService orderDetailService, IVendorService vendorService, ICategoryService categoryService, IMailService mailService) {
         this.orderDetailService = orderDetailService;
         this.vendorService = vendorService;
         this.categoryService = categoryService;

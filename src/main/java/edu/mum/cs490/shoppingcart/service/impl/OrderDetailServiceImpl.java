@@ -2,7 +2,7 @@ package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.OrderDetail;
 import edu.mum.cs490.shoppingcart.repository.OrderDetailRepository;
-import edu.mum.cs490.shoppingcart.service.OrderDetailService;
+import edu.mum.cs490.shoppingcart.service.IOrderDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.List;
  * Date April 20, 2019
  **/
 @Service
-public class OrderDetailServiceImpl implements OrderDetailService {
+public class OrderDetailServiceImpl implements IOrderDetailService {
 
 	private final OrderDetailRepository orderDetailRepository;
 

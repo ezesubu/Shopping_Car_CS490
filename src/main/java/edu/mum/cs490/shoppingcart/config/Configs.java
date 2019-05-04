@@ -5,8 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
- * Innocent Kateba, shuling he, Wenxin He, Tram Ly
+ * Created by Thomas Tibebu,
  * Date April 20, 2019
  **/
 @Configuration
@@ -19,7 +18,7 @@ import org.springframework.context.annotation.Import;
         "edu.mum.cs490.shoppingcart.repository",
         "edu.mum.cs490.shoppingcart.controller",
         "edu.mum.cs490.shoppingcart.service",
-        "edu.mum.cs490.shoppingcart.utils",
+        "edu.mum.cs490.shoppingcart.utility",
 })
 public class Configs {
 }

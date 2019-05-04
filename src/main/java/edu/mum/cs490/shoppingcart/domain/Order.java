@@ -3,7 +3,7 @@ package edu.mum.cs490.shoppingcart.domain;
 import edu.mum.cs490.shoppingcart.model.form.CustomerOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.GuestOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.PaymentForm;
-import edu.mum.cs490.shoppingcart.utils.AESConverter;
+import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
 
 
 import javax.persistence.*;
@@ -54,7 +54,7 @@ public class Order {
                 guestOrderShippingForm.getEmail());
     }
 
-    public void receivePaymentFormAndEncrypt(PaymentForm paymentForm, AESConverter aesConverter) {
+    public void receivePaymentFormAndEncrypt(PaymentForm paymentForm, AESConverterUtility aesConverter) {
         this.card = new CardDetail();
         this.card.setStatus(Status.ENABLED);
         this.card.setCardNumber(aesConverter.encrypt(paymentForm.getCardNumber()));
