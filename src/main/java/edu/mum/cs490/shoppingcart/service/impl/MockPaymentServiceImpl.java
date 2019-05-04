@@ -6,7 +6,7 @@ import edu.mum.cs490.shoppingcart.model.payment.mock.TransactionRequest;
 import edu.mum.cs490.shoppingcart.service.IPaymentService;
 import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
 import edu.mum.cs490.shoppingcart.utility.DoubleRoundUpUtility;
-import edu.mum.cs490.shoppingcart.utility.HttpSenderUtility;
+import edu.mum.cs490.shoppingcart.utility.HttpSender;
 import edu.mum.cs490.shoppingcart.utility.JsonConverterUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,7 @@ import java.security.InvalidParameterException;
 public class MockPaymentServiceImpl implements IPaymentService {
 
     @Autowired
-    private HttpSenderUtility httpSender;
+    private HttpSender httpSender;
 
     @Autowired
     private AESConverterUtility aesConverter;

@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Map;
@@ -16,7 +17,7 @@ import java.util.Map;
  * Date April 20, 2019
  **/
 @Component
-public class HttpSenderUtility {
+public class HttpSender {
 
     private String url;
     private String user;
@@ -25,7 +26,7 @@ public class HttpSenderUtility {
     private Integer connTime;
     private Integer readTime;
 
-    public HttpSenderUtility(String url, String user, String pass, String contentType, Integer connTime, Integer readTime) {
+    public HttpSender(String url, String user, String pass, String contentType, Integer connTime, Integer readTime) {
         this.url = url;
         this.user = user;
         this.pass = pass;

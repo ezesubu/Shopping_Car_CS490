@@ -1,7 +1,7 @@
 package edu.mum.cs490.shoppingcart.config;
 
 import edu.mum.cs490.shoppingcart.utility.AESConverterUtility;
-import edu.mum.cs490.shoppingcart.utility.HttpSenderUtility;
+import edu.mum.cs490.shoppingcart.utility.HttpSender;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,9 +29,9 @@ public class MockConnectionConfig {
     private String mockApiSecretKey;
 
     @Bean
-    public HttpSenderUtility httpSender() {
+    public HttpSender httpSender() {
         System.out.println("HTTP SENDER is created");
-        return new HttpSenderUtility(mockApiUrl, mockApiUser, mockApiPass, mockApiContentType, mockApiConnTime, mockApiReadTime);
+        return new HttpSender(mockApiUrl, mockApiUser, mockApiPass, mockApiContentType, mockApiConnTime, mockApiReadTime);
     }
 
     @Bean

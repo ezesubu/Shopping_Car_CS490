@@ -39,7 +39,7 @@ public class TransactionAOPService {
      * @return
      * @throws Throwable
      */
-    @Around("execution(* edu.mum.cs490.shoppingcart.utility.HttpSenderUtility.doPostTransactionToApi(..))&& args(data)")
+    @Around("execution(* edu.mum.cs490.shoppingcart.utility.HttpSender.doPostTransactionToApi(..))&& args(data)")
     public Object aopEncryptDecryptService(ProceedingJoinPoint pjp, String data) throws Throwable {
 //        System.out.println("# AOP BEFORE (5) #  is called on " + pjp.getSignature().toShortString() + " " + data);
         String encryptedData;
