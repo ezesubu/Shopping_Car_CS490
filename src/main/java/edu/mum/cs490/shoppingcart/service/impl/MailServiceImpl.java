@@ -714,7 +714,7 @@ public class MailServiceImpl implements IMailService {
                 "                            <table border=\"0\" cellspacing=\"0\" class=\"mcnTextContentContainer\" width=\"100%\" style=\"min-width: 100% !important;background-color: #8ED897;\">\n" +
                 "                                <tbody><tr>\n" +
                 "                                    <td valign=\"top\" class=\"mcnTextContent\" style=\"padding: 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;\">\n" +
-                "                                        <span style=\"font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif\"><strong>THE MONGOLIAN TEAM ONLINE STORE</strong></span>\n" +
+                "                                        <span style=\"font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif\"><strong>THE SHOPPINGCART TEAM ONLINE STORE</strong></span>\n" +
                 "                                    </td>\n" +
                 "                                </tr>\n" +
                 "                            </tbody></table>\n" +
@@ -795,10 +795,10 @@ public class MailServiceImpl implements IMailService {
                 "                        \n" +
                 "                        <td valign=\"top\" class=\"mcnTextContent\" style=\"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;\">\n" +
                 "                        \n" +
-                "                            <em>Copyright © 2018 THE MONGOLIAN TEAM, All rights reserved.</em><br>\n" +
+                "                            <em>Copyright © 2019 THE SHOPPINGCART TEAM, All rights reserved.</em><br>\n" +
                 "<br>\n" +
                 "<strong>Our mailing address is:</strong><br>\n" +
-                "mongolianteampm@gmail.com<br>\n" +
+                "pmshoppingcart2019@gmail.com<br>\n" +
                 "<br>\n" +
                 "Want to change how you receive these emails?<br>\n" +
                 "You can <a href=\"*|UPDATE_PROFILE|*\">update your preferences</a> or <a href=\"*|UNSUB|*\">unsubscribe from this list</a>.\n" +
@@ -867,7 +867,7 @@ public class MailServiceImpl implements IMailService {
                 "                    <p>Hi --"+vendorName+"--,</p>\n" +
                 "\n" +
                 "                    <h1><strong>Congratulations on signing up<br>\n" +
-                "                    for Mongolian Team Online Store!</strong></h1>\n" +
+                "                    for shoppingcart Team Online Store!</strong></h1>\n" +
                 "\n" +
                 "                    <h3>Thanks for joining our online store.\n" +
                 "                    We're excited to give you chance that you can sell all your brand product through our widely used application.</h3>\n" +
@@ -1527,7 +1527,7 @@ public class MailServiceImpl implements IMailService {
                 "                    <p>Hi --"+userName+"--,</p>\n" +
                 "\n" +
                 "                    <h1><strong>Congratulations on signing up<br>\n" +
-                "                    for Mongolian Team Brand Online Store!</strong></h1>\n" +
+                "                    for Shoppingcart Team Brand Online Store!</strong></h1>\n" +
                 "\n" +
                 "                    <h3>Thanks for joining our online store.\n" +
                 "                    We're excited to share everything that we can offer you  brand products from all our vendors.</h3>\n" +
@@ -2187,7 +2187,7 @@ public class MailServiceImpl implements IMailService {
                 "                    <p>Dear --Admin--,</p>\n" +
                 "\n" +
                 "                    <h1><strong>"+vendorName+" brand joined into our widely used <br>\n" +
-                "                    Mongolian Team Online Store!</strong></h1>\n" +
+                "                    Shoppingcart Team Online Store!</strong></h1>\n" +
                 "\n" +
                 "                    <h3>Please activate this vendors account to be able to sell their brand products!\n" +
                 "                    Thank you for your support.</h3>\n" +
@@ -2885,7 +2885,7 @@ public class MailServiceImpl implements IMailService {
                 "\t\t\t\t\t\t\t\t\t\t<h1 class=\"aligncenter\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif; box-sizing: border-box; font-size: 32px; color: #000; line-height: 1.2em; font-weight: 500; text-align: center; margin: 40px 0 0;\" align=\"center\">$"+df.format((order.getTotalPriceWithTax()))+" Paid</h1>\n" +
                 "\t\t\t\t\t\t\t\t\t</td>\n" +
                 "\t\t\t\t\t\t\t\t</tr><tr style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><td class=\"content-block\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;\" valign=\"top\">\n" +
-                "\t\t\t\t\t\t\t\t\t\t<h2 class=\"aligncenter\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif; box-sizing: border-box; font-size: 24px; color: #000; line-height: 1.2em; font-weight: 400; text-align: center; margin: 40px 0 0;\" align=\"center\">Thanks for using Mongolian Team Online Store.</h2>\n" +
+                "\t\t\t\t\t\t\t\t\t\t<h2 class=\"aligncenter\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif; box-sizing: border-box; font-size: 24px; color: #000; line-height: 1.2em; font-weight: 400; text-align: center; margin: 40px 0 0;\" align=\"center\">Thanks for using Shoppingcart Team Online Store.</h2>\n" +
                 "\t\t\t\t\t\t\t\t\t</td>\n" +
                 "\t\t\t\t\t\t\t\t</tr><tr style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><td class=\"content-block aligncenter\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; text-align: center; margin: 0; padding: 0 0 20px;\" align=\"center\" valign=\"top\">\n" +
                 "\t\t\t\t\t\t\t\t\t\t<table class=\"invoice\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; text-align: left; width: 80%; margin: 40px auto;\"><tr style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><td style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 5px 0;\" valign=\"top\">"+customerName+"<br style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\" />Invoice #"+order.getId()+"<br style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\" />"+simpleDateFormat.format(new Date())+"</td>\n" +
@@ -2915,7 +2915,7 @@ public class MailServiceImpl implements IMailService {
                 "\t\t\t\t\t\t\t\t\t</td>\n" +
                 "\t\t\t\t\t\t\t\t</tr></table></td>\n" +
                 "\t\t\t\t\t</tr></table><div class=\"footer\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; width: 100%; clear: both; color: #999; margin: 0; padding: 20px;\">\n" +
-                "\t\t\t\t\t<table width=\"100%\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><tr style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><td class=\"aligncenter content-block\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 12px; vertical-align: top; color: #999; text-align: center; margin: 0; padding: 0 0 20px;\" align=\"center\" valign=\"top\">Questions? Email <a href=\"mailto:\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 12px; color: #999; text-decoration: underline; margin: 0;\">mongolianteampm@gmail.com</a></td>\n" +
+                "\t\t\t\t\t<table width=\"100%\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><tr style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;\"><td class=\"aligncenter content-block\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 12px; vertical-align: top; color: #999; text-align: center; margin: 0; padding: 0 0 20px;\" align=\"center\" valign=\"top\">Questions? Email <a href=\"mailto:\" style=\"font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 12px; color: #999; text-decoration: underline; margin: 0;\">pmshoppingcart2019@gmail.com@gmail.com</a></td>\n" +
                 "\t\t\t\t\t\t</tr></table></div></div>\n" +
                         " <h3>Billed to</h3>\n" +
                         "\n" +
@@ -3520,7 +3520,7 @@ public class MailServiceImpl implements IMailService {
                 "                            <table border=\"0\" cellspacing=\"0\" class=\"mcnTextContentContainer\" width=\"100%\" style=\"min-width: 100% !important;background-color: #8ED897;\">\n" +
                 "                                <tbody><tr>\n" +
                 "                                    <td valign=\"top\" class=\"mcnTextContent\" style=\"padding: 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;\">\n" +
-                "                                        <span style=\"font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif\"><strong>THE MONGOLIAN TEAM ONLINE STORE</strong></span>\n" +
+                "                                        <span style=\"font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif\"><strong>THE SHOPPINGCART TEAM ONLINE STORE</strong></span>\n" +
                 "                                    </td>\n" +
                 "                                </tr>\n" +
                 "                            </tbody></table>\n" +
@@ -3685,10 +3685,10 @@ public class MailServiceImpl implements IMailService {
                 "                        \n" +
                 "                        <td valign=\"top\" class=\"mcnTextContent\" style=\"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;\">\n" +
                 "                        \n" +
-                "                            <em>Copyright © 2018 THE MONGOLIAN TEAM, All rights reserved.</em><br>\n" +
+                "                            <em>Copyright © 2019 THE SHOPPINGCART TEAM, All rights reserved.</em><br>\n" +
                 "<br>\n" +
                 "<strong>Our mailing address is:</strong><br>\n" +
-                "mongolianteampm@gmail.com<br>\n" +
+                "pmshoppingcart2019@gmail.com<br>\n" +
                 "<br>\n" +
                 "Want to change how you receive these emails?<br>\n" +
                 "You can <a href=\"*|UPDATE_PROFILE|*\">update your preferences</a> or <a href=\"*|UNSUB|*\">unsubscribe from this list</a>.\n" +
@@ -4313,7 +4313,7 @@ public class MailServiceImpl implements IMailService {
                 "                            <table border=\"0\" cellspacing=\"0\" class=\"mcnTextContentContainer\" width=\"100%\" style=\"min-width: 100% !important;background-color: #8ED897;\">\n" +
                 "                                <tbody><tr>\n" +
                 "                                    <td valign=\"top\" class=\"mcnTextContent\" style=\"padding: 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;\">\n" +
-                "                                        <span style=\"font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif\"><strong>THE MONGOLIAN TEAM ONLINE STORE</strong></span>\n" +
+                "                                        <span style=\"font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif\"><strong>THE SHOPPINGCART TEAM ONLINE STORE</strong></span>\n" +
                 "                                    </td>\n" +
                 "                                </tr>\n" +
                 "                            </tbody></table>\n" +
@@ -4392,10 +4392,10 @@ public class MailServiceImpl implements IMailService {
                 "                        \n" +
                 "                        <td valign=\"top\" class=\"mcnTextContent\" style=\"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;\">\n" +
                 "                        \n" +
-                "                            <em>Copyright © 2018 THE MONGOLIAN TEAM, All rights reserved.</em><br>\n" +
+                "                            <em>Copyright © 2019 THE SHOPPINGCART TEAM, All rights reserved.</em><br>\n" +
                 "<br>\n" +
                 "<strong>Our mailing address is:</strong><br>\n" +
-                "mongolianteampm@gmail.com<br>\n" +
+                "pmshoppingcart2019@gmail.com<br>\n" +
                 "<br>\n" +
                 "Want to change how you receive these emails?<br>\n" +
                 "You can <a href=\"*|UPDATE_PROFILE|*\">update your preferences</a> or <a href=\"*|UNSUB|*\">unsubscribe from this list</a>.\n" +

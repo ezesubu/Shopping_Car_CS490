@@ -38,8 +38,8 @@ public class TestMailController {
 
     @Test
     public void sendEmailToCustomer() throws Exception {
-        String toEmailTrue = "mongolianteampm@gmail.com";
-        String userNameTrue = "Mongolian Team";
+        String toEmailTrue = "pmshoppingcart2019@gmail.com";
+        String userNameTrue = "ShoppingCart Team";
         boolean resultTrue = mailService.sendEmailToCustomer(toEmailTrue, userNameTrue);
         Assert.assertEquals(true, resultTrue);
         String toEmailFalse = "@e";
@@ -64,7 +64,7 @@ public class TestMailController {
         paymentForm.setCvv("123");
         paymentForm.setCardZipcode("52557");
         String month = "05";
-        String year = "2018";
+        String year = "2019";
 
         ShoppingCart sc = new ShoppingCart();
         List<OrderDetail> orderDetails = new ArrayList<>();
@@ -81,7 +81,7 @@ public class TestMailController {
         Assert.assertEquals(false, resultTrue);
 
         Customer customerFalse = new Customer();
-        customerFalse.setEmail("mongolianteampm@gmail.com");
+        customerFalse.setEmail("pmshoppingcart2019@gmail.com");
         order.setCustomer(customerFalse);
         boolean resultFalse = mailService.sendEmailToCustomerAndVendor(order);
         Assert.assertEquals(true, resultFalse);

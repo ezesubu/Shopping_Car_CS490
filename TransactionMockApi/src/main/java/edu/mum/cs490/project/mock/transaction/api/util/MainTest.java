@@ -29,7 +29,7 @@ public class MainTest {
         TransactionRequest tr = new TransactionRequest();
         tr.setTxnId("" + System.currentTimeMillis());
         tr.setSrcCardNo("4929127657563699");
-        tr.setExpirationDate("05/2018");
+        tr.setExpirationDate("05/2019");
         tr.setNameOnCard("05/2018");
         tr.setCVV("123");
         tr.setZipCode("52557");

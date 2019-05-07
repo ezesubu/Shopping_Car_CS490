@@ -2,11 +2,7 @@
 Date April 20, 2019
 --%>
 <%@include file="/WEB-INF/include.jsp"%>
-/**
-* Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
-* Innocent Kateba, shuling he, Wenxin He, Tram Ly
-* Date April 20, 2019
-**/
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/WEB-INF/jsp/template/header.jsp"%>
 

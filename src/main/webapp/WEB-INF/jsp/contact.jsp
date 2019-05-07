@@ -2,11 +2,7 @@
 Date April 20, 2019
 --%>
 <%@include file="/WEB-INF/include.jsp"%>
-/**
-* Created by Ezequiel Suarez Buitrago, Thomas Tibebu,
-* Innocent Kateba, shuling he, Wenxin He, Tram Ly
-* Date April 20, 2019
-**/
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/WEB-INF/jsp/template/header.jsp"%>
 
@@ -27,7 +23,7 @@ Date April 20, 2019
                     </div>
                     <div class="form-group">
                         <label for="email">Email : </label>
-                        <label id="email">mongolianteampm@gmail.com</label>
+                        <label id="email">pmshoppingcart2019@gmail.com</label>
                     </div>
                 </div>
             </div>
@@ -50,7 +46,7 @@ Date April 20, 2019
         marker.setMap(map);
 
         var infowindow = new google.maps.InfoWindow({
-            content: "The Mongolian Team Online Store!"
+            content: "The Shoppingcart Team Online Store!"
         });
         infowindow.open(map,marker);
     }
