@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
 
 /**
- * Created by ChanPiseth on 5/06/2019
+ * Created by Innocent Kateba on 5/03/2019
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
