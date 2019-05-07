@@ -3,28 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7221e17f-87a6-4710-8f29-8f3c8fb20dbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/InitBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/InitBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/DepositRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/DepositRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/TransactionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/TransactionRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/test/edu/mum/cs490/project/mock/transaction/api/util/TransactionControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/test/edu/mum/cs490/project/mock/transaction/api/util/TransactionControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/MockPaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/MockPaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mail.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contact.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/guestsubmitorder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/guestsubmitorder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/submitorder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/submitorder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editCard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editCard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/saveProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/saveProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/signUp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestMailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestMailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,6 +39,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="java" value="90" />
+          <entry key="jrxml" value="1" />
           <entry key="jsp" value="111" />
           <entry key="md" value="1" />
           <entry key="properties" value="5" />
@@ -76,14 +56,14 @@
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="5" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="50" />
           <entry key="java" value="260" />
-          <entry key="jsp" value="57" />
+          <entry key="jsp" value="88" />
           <entry key="properties" value="15" />
           <entry key="txt" value="51" />
         </counts>
@@ -91,7 +71,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="260" />
-          <entry key="JSP" value="57" />
+          <entry key="JSP" value="88" />
           <entry key="PLAIN_TEXT" value="101" />
           <entry key="Properties" value="15" />
         </counts>
@@ -105,15 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
               <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -150,11 +121,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="52">
               <caret line="4397" column="54" lean-forward="true" selection-start-line="4397" selection-start-column="54" selection-end-line="4397" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jpreport/ChartReport.jrxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="422" column="84" selection-start-line="422" selection-start-column="84" selection-end-line="422" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -177,6 +157,8 @@
       <find>HttpSender</find>
       <find>mongolianteampm</find>
       <find>mongolian</find>
+      <find>2022</find>
+      <find>501</find>
     </findStrings>
     <dirStrings>
       <dir>E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\TransactionMockApi</dir>
@@ -710,7 +692,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557237748663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557237924720" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../082 9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -751,7 +733,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556910112778</updated>
       <workItem from="1556910114450" duration="16578000" />
-      <workItem from="1557093096682" duration="5044000" />
+      <workItem from="1557093096682" duration="5428000" />
     </task>
     <task id="LOCAL-00001" summary="Service class and security class updated">
       <created>1556930549572</created>
@@ -774,11 +756,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557195076018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Service class and security class updated">
+      <created>1557237766099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557237766099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21622000" />
+    <option name="totallyTimeSpent" value="22006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,6 +780,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36456808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -802,7 +792,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3280757" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.37381703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.37381703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -810,7 +800,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.42647058" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.15615141" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" visible="true" weight="0.7003155" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -841,11 +831,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user/admin/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user/admin/edit.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1017,8 +1002,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="52">
           <caret line="4397" column="54" lean-forward="true" selection-start-line="4397" selection-start-column="54" selection-end-line="4397" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jpreport/ChartReport.jrxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="422" column="84" selection-start-line="422" selection-start-column="84" selection-end-line="422" selection-end-column="84" />
         </state>
       </provider>
     </entry>

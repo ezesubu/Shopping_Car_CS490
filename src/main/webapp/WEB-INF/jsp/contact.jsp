@@ -15,11 +15,11 @@ Date April 20, 2019
 
                     <div class="form-group">
                         <label for="phone">Phone : </label>
-                        <label id="phone">+1 (123) 456-789</label>
+                        <label id="phone">+1 (641) 919-2093</label>
                     </div>
                     <div class="form-group">
                         <label for="address">Address : </label>
-                        <label id="address">501 West Jefferson Ave, Fairfield IA, 52557</label>
+                        <label id="address">1000 N 4th Street, Fairfield IA, 52557</label>
                     </div>
                     <div class="form-group">
                         <label for="email">Email : </label>
