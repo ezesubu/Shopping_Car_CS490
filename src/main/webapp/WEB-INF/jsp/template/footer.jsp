@@ -3,26 +3,26 @@ Date April 20, 2019
 --%>
 <%@include file="/WEB-INF/include.jsp"%>
 
-<!-- footer -->
-<footer id="aa-footer">
+<%--<!-- footer -->--%>
+<%--<footer id="aa-footer">--%>
 
-    <!-- footer-bottom -->
-    <div class="aa-footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="aa-footer-bottom-area">
-                        <p>PM Store </p>
-                        <div class="aa-footer-payment">
-                            MUM 2019
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- / footer -->
+<%--    <!-- footer-bottom -->--%>
+<%--    <div class="aa-footer-bottom">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-md-12">--%>
+<%--                    <div class="aa-footer-bottom-area">--%>
+<%--                        <p>PM Store </p>--%>
+<%--                        <div class="aa-footer-payment">--%>
+<%--                            MUM 2019--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
+<%--</footer>--%>
+<%--<!-- / footer -->--%>
 
 <div id="edit-modal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
