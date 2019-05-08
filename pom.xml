@@ -7,10 +7,10 @@
     <groupId>edu.mum.cs490</groupId>
     <artifactId>project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>TransactionMockApi</module>
-    </modules>
-    <packaging>pom</packaging>
+<!--    <modules>-->
+<!--        <module>TransactionMockApi</module>-->
+<!--    </modules>-->
+    <packaging>jar</packaging>
 
     <name>project</name>
     <description>Demo project for Spring Boot</description>

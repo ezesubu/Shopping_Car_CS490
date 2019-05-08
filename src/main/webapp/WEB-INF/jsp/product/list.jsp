@@ -156,18 +156,18 @@ Date April 20, 2019
                 <aside class="aa-sidebar">
                     <!-- single sidebar -->
                     <div class="aa-sidebar-widget">
-                        <h3>Category</h3>
+                        <h3>Categories</h3>
                         <ul class="aa-catg-nav">
                             <c:forEach items="${categories}" var="row">
-                                <li><a <c:if test="${row.id eq param.categoryId}">class="selected" </c:if> href="${searchUrl}<my:replaceParam name="categoryId" value="${row.id}"/> ">${row.name}</a></li>
+                                <li><strong><a <c:if test="${row.id eq param.categoryId}">class="selected" </c:if> href="${searchUrl}<my:replaceParam name="categoryId" value="${row.id}"/> ">${row.name}</a></strong></li>
                                 <c:if test="${row.childCategories ne null}">
                                     <ul class="aa-catg-nav">
                                         <c:forEach items="${row.childCategories}" var="cRow">
-                                            <li><a <c:if test="${cRow.id eq param.categoryId}">class="selected" </c:if> href="${searchUrl}<my:replaceParam name="categoryId" value="${cRow.id}"/> ">--- ${cRow.name}</a></li>
+                                            <li><a <c:if test="${cRow.id eq param.categoryId}">class="selected" </c:if> href="${searchUrl}<my:replaceParam name="categoryId" value="${cRow.id}"/> ">&nbsp &nbsp ${cRow.name}</a></li>
                                             <c:if test="${cRow.childCategories ne null}">
                                                 <ul class="aa-catg-nav">
                                                     <c:forEach items="${cRow.childCategories}" var="sRow">
-                                                        <li><a <c:if test="${sRow.id eq param.categoryId}">class="selected" </c:if> href="${searchUrl}<my:replaceParam name="categoryId" value="${sRow.id}"/> ">------ ${sRow.name}</a></li>
+                                                        <li><a <c:if test="${sRow.id eq param.categoryId}">class="selected" </c:if> href="${searchUrl}<my:replaceParam name="categoryId" value="${sRow.id}"/> ">&nbsp &nbsp &nbsp &nbsp ${sRow.name}</a></li>
                                                     </c:forEach>
                                                 </ul>
                                             </c:if>

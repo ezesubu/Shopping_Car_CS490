@@ -1,12 +1,18 @@
-<%--Created by Ezequiel Suarez Buitrago
-Date April 20, 2019
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%@include file="/WEB-INF/include.jsp"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/WEB-INF/jsp/template/header.jsp"%>
 
-
+<%--
+  ~ Created by: Ezesubu
+  ~ Date: April 22, 2019
+  ~ Name: View
+  ~ DependingIn:  Boostrap3.6.->
+  ~ Description: UI Template
+  ~ Module: UI Template
+  --%>
 
 <!-- Products section -->
         <!-- start prduct navigation -->
