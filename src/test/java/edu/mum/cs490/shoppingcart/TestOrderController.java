@@ -60,36 +60,36 @@ public class TestOrderController {
     }
 
     @Test
-    @WithUserDetails("yeerick")
+    @WithUserDetails("thomas")
     public void addToCard() throws Exception{
 
         CustomerOrderShippingForm customerShippingForm = new CustomerOrderShippingForm();
         customerShippingForm.setStreet("1000 North 4th Street");
         customerShippingForm.setCity("Fairfield");
-        customerShippingForm.setPhoneNumber("2058871599");
+        customerShippingForm.setPhoneNumber("6419192093");
         customerShippingForm.setState("IA");
         customerShippingForm.setZipcode("52557");
 
         PaymentForm paymentForm = new PaymentForm();
         paymentForm.setCardNumber("4929127657563699");
         paymentForm.setCardType("Visa");
-        paymentForm.setCardHolderName("yee rick");
+        paymentForm.setCardHolderName("Thomas Tibebu");
         paymentForm.setCvv("123");
         paymentForm.setCardZipcode("52557");
         String month = "05";
-        String year = "2019";
+        String year = "2020";
 
         ShoppingCart sc = new ShoppingCart();
         List<OrderDetail> orderDetails = new ArrayList<>();
         OrderDetail od = new OrderDetail();
         od.setProduct(productService.getOne(1));
         od.setQuantity(1);
-        od.setPrice(150);
+        od.setPrice(200);
         orderDetails.add(od);
         sc.setOrderDetails(orderDetails);
 
         Order order = new Order();
-        order.receiveCustomerShippingForm(userService.getByUsername("yeerick"), customerShippingForm);
+        order.receiveCustomerShippingForm(userService.getByUsername("thomas"), customerShippingForm);
         order.setOrderDetails(sc.getOrderDetails());
 
         mockMvc.perform(get("/order/addToCart/1")).andExpect(redirectedUrl("/order/shoppingcart"));

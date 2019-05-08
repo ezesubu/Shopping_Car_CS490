@@ -98,7 +98,7 @@ public class TestProductController {
 
         ProductForm productForm = new ProductForm();
 //        productForm.setId(200);
-        productForm.setName("Micheal Kors");
+        productForm.setName("Anne Dow");
         productForm.setCategoryId(5);
         productForm.setPrice(456);
         productForm.setQuantity(1);

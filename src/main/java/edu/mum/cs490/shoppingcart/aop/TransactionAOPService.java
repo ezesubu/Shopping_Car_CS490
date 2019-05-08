@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package edu.mum.cs490.shoppingcart.aop;
-
 import edu.mum.cs490.shoppingcart.domain.Transaction;
 import edu.mum.cs490.shoppingcart.domain.TransactionType;
 import edu.mum.cs490.shoppingcart.repository.TransactionRepository;

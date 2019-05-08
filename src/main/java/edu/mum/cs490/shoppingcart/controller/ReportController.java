@@ -42,7 +42,7 @@ public class ReportController {
     private final IOrderDetailService orderDetailService;
     private final IVendorService vendorService;
     private final ICategoryService categoryService;
-    private final IMailService mailService;
+//    private final IMailService mailService;
 
     @Autowired
     IReportService reportService;
@@ -51,11 +51,11 @@ public class ReportController {
     DataSourceReport dataSourceReport;
 
     @Autowired
-    public ReportController(IOrderDetailService orderDetailService, IVendorService vendorService, ICategoryService categoryService, IMailService mailService) {
+    public ReportController(IOrderDetailService orderDetailService, IVendorService vendorService, ICategoryService categoryService /*, IMailService mailService*/) {
         this.orderDetailService = orderDetailService;
         this.vendorService = vendorService;
         this.categoryService = categoryService;
-        this.mailService = mailService;
+//        this.mailService = mailService;
     }
 
     @GetMapping(value = "/reportFilter")
@@ -195,7 +195,7 @@ public class ReportController {
                 list = collectData(lstVendorId, new ArrayList<>(), beginDate, endDate);
                 if (list != null && !list.isEmpty()) {
                     byte[] bytes = generateJasperReportPDF("reportForVendor", outputStream, list);
-                    mailService.sendReportToVendor(vendor.getEmail(), bytes, nameOfAttachment);
+//                    mailService.sendReportToVendor(vendor.getEmail(), bytes, nameOfAttachment);
                 }
                 list.clear();
                 lstVendorId.clear();

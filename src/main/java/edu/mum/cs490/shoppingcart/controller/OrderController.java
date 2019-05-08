@@ -6,7 +6,7 @@ import edu.mum.cs490.shoppingcart.model.form.CustomerOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.GuestOrderShippingForm;
 import edu.mum.cs490.shoppingcart.model.form.PaymentForm;
 import edu.mum.cs490.shoppingcart.service.ICustomerService;
-import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.service.IEmailService;
 import edu.mum.cs490.shoppingcart.service.IOrderService;
 import edu.mum.cs490.shoppingcart.service.IProductService;
 import edu.mum.cs490.shoppingcart.service.impl.MockPaymentServiceImpl;
@@ -45,17 +45,17 @@ public class OrderController {
 
     private final AESConverterUtility aesConverter;
 
-    private final IMailService mailService;
+//    private final IMailService mailService;
 
     @Autowired
     public OrderController(IOrderService orderService, MockPaymentServiceImpl mockPaymentService, ICustomerService customerService,
-                           IProductService productService, AESConverterUtility aesConverter, IMailService mailService) {
+                           IProductService productService, AESConverterUtility aesConverter/*, IMailService mailService*/) {
         this.orderService = orderService;
         this.mockPaymentService = mockPaymentService;
         this.productService = productService;
         this.aesConverter = aesConverter;
         this.customerService = customerService;
-        this.mailService = mailService;
+//        this.mailService = mailService;
     }
 
     //Get all the orders depending on admin and vendor
@@ -254,7 +254,7 @@ public class OrderController {
         orderService.deductProductQuantityAfterPurchase(order);
 
         order = orderService.saveOrUpdate(order);
-        mailService.sendEmailToCustomerAndVendor(order);
+//        mailService.sendEmailToCustomerAndVendor(order);
         session.removeAttribute("order");
         session.removeAttribute("shoppingcart");
         model.addAttribute("cards", this.orderService.findCardByUser_id(user.getId()));
@@ -322,7 +322,7 @@ public class OrderController {
 
         order = orderService.saveOrUpdate(order);
 
-        mailService.sendEmailToCustomerAndVendor(order);
+//        mailService.sendEmailToCustomerAndVendor(order);
         session.removeAttribute("order");
         session.setAttribute("shoppingcart", new ShoppingCart());
         model.addAttribute("order", order);

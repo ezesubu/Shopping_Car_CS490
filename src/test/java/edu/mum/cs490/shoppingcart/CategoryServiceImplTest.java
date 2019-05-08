@@ -17,7 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 /**
- * Created by ChanPiseth on 5/09/2019
+ * Created by Innocent Kateba on 5/06/2019
  */
 
 @RunWith(SpringRunner.class)

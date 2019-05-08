@@ -1,4 +1,5 @@
 
+
 INSERT INTO user VALUES (1 , 'masterus2018@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Wenxin');
 INSERT INTO user VALUES (3 , 'ezesubu@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'Eazy');
 INSERT INTO user VALUES (4 , 'katebasoft@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Innocent');

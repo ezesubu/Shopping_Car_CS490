@@ -1,7 +1,7 @@
 package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.*;
-import edu.mum.cs490.shoppingcart.service.IMailService;
+//import edu.mum.cs490.shoppingcart.service.IMailService;
 import edu.mum.cs490.shoppingcart.service.IPaymentService;
 import edu.mum.cs490.shoppingcart.springboot.observer.*;
 import edu.mum.cs490.shoppingcart.springboot.template.TransactionTemplate;
@@ -37,19 +37,19 @@ public class OrderServiceImpl implements IOrderService {
     private final IPaymentService paymentService;
     private final AddressRepository addressRepository;
     private final ProductRepository productRepository;
-    private final IMailService mailService;
+//    private final IMailService mailService;
 
     private static final int PAGE_SIZE = 5;
 
     @Autowired
     public OrderServiceImpl(OrderRepository orderRepository, CardDetailRepository cardDetailRepository,
-                            IPaymentService paymentService, AddressRepository addressRepository, ProductRepository productRepository, IMailService mailService) {
+                            IPaymentService paymentService, AddressRepository addressRepository, ProductRepository productRepository /*IMailService mailService*/) {
         this.orderRespository = orderRepository;
         this.cardDetailRepository = cardDetailRepository;
         this.paymentService = paymentService;
         this.addressRepository = addressRepository;
         this.productRepository = productRepository;
-        this.mailService = mailService;
+//        this.mailService = mailService;
     }
 
     @Value("${card.detail.id.oss}")

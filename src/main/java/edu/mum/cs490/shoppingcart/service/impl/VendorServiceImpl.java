@@ -1,7 +1,7 @@
 package edu.mum.cs490.shoppingcart.service.impl;
 
 import edu.mum.cs490.shoppingcart.domain.*;
-import edu.mum.cs490.shoppingcart.service.IMailService;
+//import edu.mum.cs490.shoppingcart.service.IMailService;
 import edu.mum.cs490.shoppingcart.springboot.observer.*;
 import edu.mum.cs490.shoppingcart.springboot.template.TransactionTemplate;
 import edu.mum.cs490.shoppingcart.springboot.template.impl.VendorRegistrationTemplateImpl;
@@ -28,7 +28,7 @@ public class VendorServiceImpl extends UserServiceImpl<Vendor> implements IVendo
     protected final VendorRepository repository;
     private final CardDetailRepository cardDetailRepository;
     private final IPaymentService paymentService;
-    private final IMailService mailService;
+//    private final IMailService mailService;
 
     @Value("${card.detail.id.oss}")
     private Integer cardDetailIdOSS;
@@ -38,12 +38,12 @@ public class VendorServiceImpl extends UserServiceImpl<Vendor> implements IVendo
 
 
     @Autowired
-    public VendorServiceImpl(VendorRepository repository, CardDetailRepository cardDetailRepository, IPaymentService paymentService, IMailService mailService) {
+    public VendorServiceImpl(VendorRepository repository, CardDetailRepository cardDetailRepository, IPaymentService paymentService /*IMailService mailService*/) {
         super(repository);
         this.repository = repository;
         this.cardDetailRepository = cardDetailRepository;
         this.paymentService = paymentService;
-        this.mailService = mailService;
+//        this.mailService = mailService;
     }
 
     @Override
@@ -72,7 +72,7 @@ public class VendorServiceImpl extends UserServiceImpl<Vendor> implements IVendo
 
     private TransactionTemplate getVendorRegistrationTemplate(CardDetail vendorCardDetail, CardDetail OSSCardDetail, Vendor vendor) {
         NotifierSubject notifierSubject = new NotifierSubject();
-        notifierSubject.addObserver(new MailToVendorAndAdminObserver(vendor, mailService));
+        //notifierSubject.addObserver(new MailToVendorAndAdminObserver(vendor, mailService));
         TransactionTemplate purchaseTemplate = new VendorRegistrationTemplateImpl(vendorCardDetail, OSSCardDetail, notifierSubject, new TransferSubject(), paymentService, vendorRegistrationFee);
         return purchaseTemplate;
     }
