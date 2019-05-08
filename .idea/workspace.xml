@@ -3,52 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7221e17f-87a6-4710-8f29-8f3c8fb20dbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/MockTransactionApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/aop/TransactionAOPService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/InitBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/controller/TransactionRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/dao/AccountDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/dao/TransactionDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/entity/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/entity/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/DepositRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/TransactionRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/DepositService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/TransactionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/impl/DepositServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/impl/TransactionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/AES.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/DoubleRoundUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/impl/AESImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransactionMockApi/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/TransactionAOPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/TransactionAOPService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/VendorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/VendorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailToVendorAndAdminObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailToVendorAndAdminObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/AESConverterUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/AESConverterUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/BufferedDataSourceUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/BufferedDataSourceUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/DoubleRoundUpUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/DoubleRoundUpUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/EmailUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/SignedUserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/SignedUserUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mail.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +77,7 @@
           <entry key="jsp" value="88" />
           <entry key="properties" value="266" />
           <entry key="sql" value="137" />
-          <entry key="txt" value="51" />
+          <entry key="txt" value="85" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
@@ -131,7 +85,7 @@
         <counts>
           <entry key="JAVA" value="1153" />
           <entry key="JSP" value="88" />
-          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="PLAIN_TEXT" value="140" />
           <entry key="Properties" value="266" />
           <entry key="SQL" value="137" />
           <entry key="XML" value="5" />
@@ -228,8 +182,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -396,117 +350,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -522,7 +365,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557344150559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557344677599" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../082 9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -660,7 +503,7 @@
       <workItem from="1556910114450" duration="16578000" />
       <workItem from="1557093096682" duration="17680000" />
       <workItem from="1557264995743" duration="14146000" />
-      <workItem from="1557321030720" duration="16989000" />
+      <workItem from="1557321030720" duration="17315000" />
     </task>
     <task id="LOCAL-00001" summary="Service class and security class updated">
       <created>1556930549572</created>
@@ -704,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557244390252</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Email setup configured correctlly">
+      <created>1557344390438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557344390438</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -728,7 +578,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65393000" />
+    <option name="totallyTimeSpent" value="65719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,7 +601,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" visible="true" weight="0.3280757" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3280757" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.5646688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -786,7 +636,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Service class and security class updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service class and security class updated" />
+    <MESSAGE value="Email setup configured correctlly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Email setup configured correctlly" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1204,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
