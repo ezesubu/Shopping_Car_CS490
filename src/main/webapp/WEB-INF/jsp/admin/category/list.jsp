@@ -1,8 +1,14 @@
-<%--Created by Ezequiel Suarez Buitrago
-Date April 20, 2019
---%>>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/WEB-INF/include.jsp"%>
+
+<%--
+  ~ Created by: Ezesubu
+  ~ Date: April 20, 2019
+  ~ Name: list.jsp
+  ~ DependingIn:  Boostrap3.6.->
+  ~ Description: UI Template
+  ~ Module: UI Template
+  --%>
 
 <table class="table table-striped">
     <thead>
@@ -34,12 +40,12 @@ Date April 20, 2019
                 </a>
                 <c:if test="${row.status eq 'ENABLED'}">
                     <a href="#delete" type="button" onclick="module.delete('${row.id}')">
-                        <i class="glyphicon glyphicon-remove"></i>
+                        <i class="fa fa-times"></i>
                     </a>
                 </c:if>
                 <c:if test="${row.status ne 'ENABLED'}">
                     <a href="#changeStatus" type="button" onclick="module.changeStatus('${row.id}', 'ENABLED')">
-                        <i class="glyphicon glyphicon-ok"></i>
+                        <i class="fa fa-check"></i>
                     </a>
                 </c:if>
             </td>

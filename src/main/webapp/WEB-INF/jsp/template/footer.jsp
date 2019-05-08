@@ -4,7 +4,7 @@ Date April 20, 2019
 <%@include file="/WEB-INF/include.jsp"%>
 
 <!-- footer -->
-<footer id="aa-footer" class="navbar-fixed-bottom">
+<footer id="aa-footer">
 
     <!-- footer-bottom -->
     <div class="aa-footer-bottom">
