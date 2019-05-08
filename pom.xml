@@ -10,7 +10,7 @@
     <modules>
         <module>TransactionMockApi</module>
     </modules>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
     <name>project</name>
     <description>Demo project for Spring Boot</description>

@@ -8,11 +8,12 @@ import org.springframework.core.env.Environment;
 import org.springframework.web.servlet.config.annotation.*;
 
 /**
- * Created by Thomas Tibebu,
+ * Created by Thomas Tibebu & Eazy,
  * Date April 20, 2019
  **/
 @Configuration
-@PropertySource(value={"file:E:\\CS490-Project Management\\IntellijIDEA\\Shopping-Cart-CS490\\src\\main\\resources\\application.properties"})
+//@PropertySource(value={"file:E:\\CS490-Project Management\\IntellijIDEA\\Shopping-Cart-CS490\\src\\main\\resources\\application.properties"})
+@PropertySource("classpath:application.properties")
 public class WebConfig implements WebMvcConfigurer {
 
     @Autowired
