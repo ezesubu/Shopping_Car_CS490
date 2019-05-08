@@ -3,35 +3,32 @@
 -- # GRANT ALL PRIVILEGES ON mock_bank_db.* TO 'oss'@'localhost';
 -- # FLUSH PRIVILEGES;
 
-INSERT INTO user VALUES (1 , 'ebatsukh@mum.edu', '$2a$10$snL9/9oR.u6CtqN/g5hJm.GtmHr4wx1ptuOD8.GL8wR4yvHg8Y/7O', 'ENABLED','erdenebayar');
-INSERT INTO user VALUES (3 , 'ylai@mum.edu', '$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'yeerick');
-INSERT INTO user VALUES (4 , 'akron@mum.edu', '$2a$10$5CROa6Yafyrk/NdPLtUIwemYIjWlh9fSMtGEIuKfmWN98dXMyvUYi', 'ENABLED','akron');
-INSERT INTO user VALUES (5 , 'bartiet@mum.edu', '$2a$10$5CROa6Yafyrk/NdPLtUIwemYIjWlh9fSMtGEIuKfmWN98dXMyvUYi', 'ENABLED','bartiet');
-INSERT INTO user VALUES (6 , 'gamet@mum.edu', '$2a$10$5CROa6Yafyrk/NdPLtUIwemYIjWlh9fSMtGEIuKfmWN98dXMyvUYi', 'ENABLED','gamet');
-INSERT INTO user VALUES (7 , 'panasonic@mum.edu', '$2a$10$5CROa6Yafyrk/NdPLtUIwemYIjWlh9fSMtGEIuKfmWN98dXMyvUYi', 'ENABLED','panasonic');
-INSERT INTO user VALUES (14, 'lai_yeerick@hotmail.com','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'rick');
-INSERT INTO admin VALUES ('Erdenebayar', 'Batsukh', 1);
+INSERT INTO user VALUES (1 , 'masterus2018@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Wenxin');
+INSERT INTO user VALUES (3 , 'ezesubu@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'Eazy');
+INSERT INTO user VALUES (4 , 'katebasoft@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Innocent');
+INSERT INTO user VALUES (5 , 'shulinghe51@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Shuling');
+INSERT INTO user VALUES (6 , 'ttibebu@mum.edu', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Thomas');
+INSERT INTO user VALUES (7 , 'lyngoctram1709@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Tram');
+INSERT INTO user VALUES (14, 'rick@hotmail.com','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'rick');
+INSERT INTO admin VALUES ('Wenxin', 'He', 1);
 
 
-INSERT INTO customer VALUES ('Yee Rick', 'Lai', 3);
-INSERT INTO user VALUES (8, 'ebatsukh@mum.edu','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'bay');
-INSERT INTO customer VALUES ('Erdenebayar', 'Batsukh', 8);
-INSERT INTO user VALUES (9, 'tuvshin0bt@gmail.com','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'batt');
-INSERT INTO customer VALUES ('Battuvshin', 'Badarch', 9);
-INSERT INTO user VALUES (10, 'tbatmunkh@mum.edu','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'tamir');
-INSERT INTO customer VALUES ('Tamir', 'Batmunkh', 10);
-INSERT INTO user VALUES (11, 'pagmaa.erdenebat@gmail.com','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'pagma');
-INSERT INTO customer VALUES ('Pagmaa', 'Erdenebat', 11);
-INSERT INTO user VALUES (12, 'thha@mum.edu','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'hong');
-INSERT INTO customer VALUES ('Thuy Hong', 'Ha', 12);
-INSERT INTO user VALUES (13, 'chpiseth9@gmail.com','$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'seth');
-INSERT INTO customer VALUES ('Chanpiseth', 'Chea', 13);
+INSERT INTO customer VALUES ('customer1', 'cu1', 3);
+INSERT INTO user VALUES (8, 'customer1@mum.edu','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'costumer1');
+INSERT INTO customer VALUES ('customer2', 'cu2', 8);
+INSERT INTO user VALUES (9, 'customer2@gmail.com','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'customer2');
+INSERT INTO customer VALUES ('customer3', 'cu3', 9);
+INSERT INTO user VALUES (10, 'tbatmunkh@mum.edu','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'customer3');
+INSERT INTO customer VALUES ('customer4', 'cu4', 10);
+INSERT INTO user VALUES (11, 'customer4@gmail.com','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'customer4');
+INSERT INTO customer VALUES ('customer5', 'cu5', 11);
+INSERT INTO user VALUES (12, 'customer5@mum.edu','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'customer5');
+INSERT INTO customer VALUES ('customer6', 'cu6', 12);
+INSERT INTO user VALUES (13, 'customer7@gmail.com','$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'customer6');
+INSERT INTO customer VALUES ('customer7', 'cu7', 13);
+INSERT INTO user VALUES (2 , 'vendor@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'vendor');
 
-
-INSERT INTO user VALUES (2 , 'ebatsukh@mum.edu', '$2a$10$snL9/9oR.u6CtqN/g5hJm.GtmHr4wx1ptuOD8.GL8wR4yvHg8Y/7O', 'ENABLED',
-                         'vendor');
-INSERT INTO vendor VALUES ('MUM', 'vendor\\2\\2.jpg', 2);
-INSERT INTO vendor VALUES ('ADIDAS', 'vendor\\4\\4.png', 4);
+INSERT INTO vendor VALUES ('Nike', 'vendor\\4\\4.png', 4);
 INSERT INTO vendor VALUES ('Louis Vuitton', 'vendor\\5\\5.png', 5);
 INSERT INTO vendor VALUES ('Rolex', 'vendor\\6\\6.png', 6);
 INSERT INTO vendor VALUES ('Oakley', 'vendor\\7\\7.jpg', 7);
@@ -42,18 +39,12 @@ INSERT INTO category VALUES (2, 'category\\2\\2.jpg', "Men",'ENABLED',null);
 INSERT INTO category VALUES (3, 'category\\3\\3.jpg', "Clothing",'ENABLED',1);
 INSERT INTO category VALUES (4, 'category\\4\\4.jpg', "Bag",'ENABLED',1);
 INSERT INTO category VALUES (7, 'category\\7\\7.jpg', "Accessories",'ENABLED',2);
-INSERT INTO category VALUES (6, 'category\\6\\6.jpg', "Shoes",'ENABLED',2);
-INSERT INTO category VALUES (5, 'category\\5\\5.jpg', "Watches",'ENABLED',7);
-INSERT INTO category VALUES (8, 'category\\8\\8.jpg', "Car", 'ENABLED', 2);
+INSERT INTO category VALUES (6, 'category\\6\\6.jpg', "Shoes",'ENABLED', 2);
+INSERT INTO category VALUES (5, 'category\\5\\5.jpg', "Clothing",'ENABLED',7);
+INSERT INTO category VALUES (8, 'category\\8\\8.jpg', "Cars", 'ENABLED', null);
 INSERT INTO category VALUES (9, 'category\\9\\9.jpg', "Sunglasses", 'ENABLED', 7);
 
---4000300020001000 100 05/2020 OSS 52557
---4000300020002000 200 05/2020 TAX 10000
---4000300020003001 301 05/2020 V1 52557
---4000300020003002 302 05/2020 V2 52557
---4000300020003003 303 05/2020 V3 52557
---4000300020003004 304 05/2020 V4 52557
---4000300020003005 305 05/2020 V5 52557
+
 INSERT INTO card_detail VALUES(1, 'QraOsmY1Vm/D/pQN6BuLhw==', 'hiE+wqyvnTqJkKbp/OsjdA==', 'wCs2kVuyP/Wl1r1z25CSLvgzFwyz9ICwGILHUe1Ku8c=', 'VISA', 'PDxRRthWgxfXXzrhUr4D1w==', '1000', 'ENABLED', 'PM0IK0uDDL5hne6fEhSiQg==', NULL, 1);
 INSERT INTO card_detail VALUES(2, 'QraOsmY1Vm/D/pQN6BuLhw==', 'SCyf4mtAPdUbXAUeuJXTZg==', 'ZsI1f6td8VkuQmP2o7zrsvgzFwyz9ICwGILHUe1Ku8c=', 'VISA', 'E+xQ7+d1sHpp+x5e9vK7UA==', '2000', 'ENABLED', 'VV8Po+pw3CYRaB151M9MdQ==', NULL, NULL);
 INSERT INTO card_detail VALUES(3, 'QraOsmY1Vm/D/pQN6BuLhw==', 'U20GoH1QCTVt89PhV9iiBQ==', 'CyIxvjmUDvX8d3MAODdv+PgzFwyz9ICwGILHUe1Ku8c=', 'VISA', 'iU6EhOP10yd+6m1+7hxHgg==', '3001', 'ENABLED', 'PM0IK0uDDL5hne6fEhSiQg==', NULL, 2);
@@ -67,25 +58,26 @@ INSERT INTO card_detail VALUES(9, 'QraOsmY1Vm/D/pQN6BuLhw==', 'hiE+wqyvnTqJkKbp/
 INSERT INTO address VALUES (1, 'Fairfield', '2058871599', 'Iowa', 'ENABLED', '1000 N 4th St', '52557', 3);
 INSERT INTO address VALUES (2, 'Fairfield', '2058871599', 'Iowa', 'ENABLED', '52 E. Golden Lane', '52556', 3);
 
-INSERT INTO product VALUES(1, 'White Checker bag, elegant yet gorgeous', 'product\\1\\1.jpg', 'Louis Vuitton White Checker bag',  900, 3, 'ENABLED', 4, 5);
-INSERT INTO product VALUES(2, 'Branded Mechanical Watch by ROLEX', 'product\\2\\2.jpg', 'ROLEX VISION',  5000, 4, 'ENABLED', 5, 6 );
-INSERT INTO product VALUES(3, 'Limited Edition Adidas Yeezy by Kanye West', 'product\\3\\3.jpg' , 'Adidas Yeezy 1.0 ',  1200, 5, 'ENABLED', 6, 4);
-INSERT INTO product VALUES(4, 'Louis Vuitton Most Luxurious Bag ever made', 'product\\4\\4.jpg', 'Louis Vuitton Black Leather',  1169, 8, 'ENABLED', 4, 5);
-INSERT INTO product VALUES(5, 'Black Rose', 'product\\5\\5.jpg', 'BR',  222, 10, 'ENABLED', 3, 2);
-INSERT INTO product VALUES(6, 'Prepare to amazed by this beautiful brown bag', 'product\\6\\6.jpg', 'Louis Vuitton Brown Leather bag',  800, 3, 'ENABLED', 4, 5);
-INSERT INTO product VALUES(7, 'Brown Checker bag, elegant yet gorgeous', 'product\\7\\7.png', 'Louis Vuitton brown Checker bag',  1349, 3, 'ENABLED', 4, 5);
-INSERT INTO product VALUES(8, 'Limited Edition Adidas NMD by Yee Rick', 'product\\8\\8.jpg' , 'Adidas NMD 1.0 ',  780, 5, 'ENABLED', 6, 4);
-INSERT INTO product VALUES(9, 'State of the art Gold plated shoes', 'product\\9\\9.jpg' , 'Adidas Golden Threshold Shoes',  3598, 5, 'ENABLED', 6, 4);
-INSERT INTO product VALUES(10, 'Epic jump shoes, felt like hovering when you jump', 'product\\10\\10.jpg' , 'Adidas Jumping Reaper',  1898, 5, 'ENABLED', 6, 4);
-INSERT INTO product VALUES(11, 'You maybe walking, you are actually flying. Shoes for future', 'product\\11\\11.jpg' , 'Adidas Flying Verizon',  2778, 5, 'ENABLED', 6, 4);
-INSERT INTO product VALUES(12, 'Gold Plated Branded Mechanical Watch by ROLEX', 'product\\12\\12.jpg', 'ROLEX Peace',  7334, 3, 'ENABLED', 5, 6);
-INSERT INTO product VALUES(13, 'High Tech looking sunglasses for all handsome males', 'product\\13\\13.jpg', 'Oakley Flamer',  450, 9, 'ENABLED', 9, 7);
-INSERT INTO product VALUES(14, 'Historical sunglasses for tough Man', 'product\\14\\14.jpg', 'Oakley Historic', 533, 8, 'ENABLED', 9, 7);
-INSERT INTO product VALUES(15, 'Sunglasses for every working adults', 'product\\15\\15.jpg', 'Oakley Palmer',  330, 12, 'ENABLED', 9, 7);
-INSERT INTO product VALUES(16, 'Futuristic embodiment of sunglasses', 'product\\16\\16.jpg', 'Oakley Hunger',  435, 9, 'ENABLED', 9, 7);
-INSERT INTO product VALUES(17, 'Cheapest Tesla Electric car in the market.', 'product\\17\\17.jpg', 'Tesla Model 3', 15000, 5, 'ENABLED', 8, 14);
-INSERT INTO product VALUES(18, 'Electric Tesla SUV with the greatest price reduction ever', 'product\\18\\18.jpg', 'Tesla Model X',  17000, 4, 'ENABLED', 8, 14);
-INSERT INTO product VALUES(19, 'Meditation to do less accomplish more. Seek the highest first', 'product\\19\\19.jpg', 'Transcendental Meditation',  17000, 4, 'ENABLED', NULL , 2);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (1, 'White Checker bag, elegant yet gorgeous', 'product\\1\\1.jpg', 'Louis Vuitton White Checker bag', 900, 3, 'ENABLED', 4, 5);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (2, 'Branded Mechanical Watch by ROLEX', 'product\\2\\2.jpg', 'ROLEX VISION', 5000, 4, 'ENABLED', 5, 6);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (3, 'Nike Adapt BB Black Pure Platinum (US Charger)', 'product\\3\\3.jpg', 'Nike Adapt BB', 1200, 5, 'ENABLED', 6, 4);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (4, 'Louis Vuitton Most Luxurious Bag ever made', 'product\\4\\4.jpg', 'Louis Vuitton Black Leather', 1169, 8, 'ENABLED', 4, 5);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (5, 'Pink Clothing', 'product\\5\\5.jpg', 'Pink Clothing', 60, 10, 'ENABLED', 3, 2);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (6, 'Prepare to amazed by this beautiful brown bag', 'product\\6\\6.jpg', 'Louis Vuitton Brown Leather bag', 800, 3, 'ENABLED', 4, 5);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (7, 'Brown Checker bag, elegant yet gorgeous', 'product\\7\\7.png', 'Louis Vuitton brown Checker bag', 1349, 3, 'ENABLED', 4, 5);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (8, 'Nike Air Force 1', 'product\\8\\8.jpg', 'Nike Air Force 1', 780, 5, 'ENABLED', 6, 4);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (9, 'Kyrie 5', 'product\\9\\9.jpg', 'Kyrie 5 By You Basketball Shoe.', 3598, 5, 'ENABLED', 6, 4);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (10, 'Nike Running Shoes', 'product\\10\\10.jpg', 'Nike Grey Running Shoes', 1898, 5, 'ENABLED', 6, 4);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (11, 'Nike Air Max 270 Shoes', 'product\\11\\11.jpg', 'Air Max 270 Shoes', 2778, 5, 'ENABLED', 6, 4);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (12, 'Gold Plated Branded Mechanical Watch by ROLEX', 'product\\12\\12.jpg', 'ROLEX Peace', 7334, 3, 'ENABLED', 5, 6);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (13, 'High Tech looking sunglasses for all handsome males', 'product\\13\\13.jpg', 'Oakley Flamer', 450, 9, 'ENABLED', 9, 7);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (14, 'Historical sunglasses for tough Man', 'product\\14\\14.jpg', 'Oakley Historic', 533, 8, 'ENABLED', 9, 7);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (15, 'Sunglasses for every working adults', 'product\\15\\15.jpg', 'Oakley Palmer', 330, 12, 'ENABLED', 9, 7);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (16, 'Futuristic embodiment of sunglasses', 'product\\16\\16.jpg', 'Oakley Hunger', 435, 9, 'ENABLED', 9, 7);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (17, 'Cheapest Tesla Electric car in the market.', 'product\\17\\17.jpg', 'Tesla Model 3', 15000, 5, 'ENABLED', 8, 14);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (18, 'Electric Tesla SUV with the greatest price reduction ever', 'product\\18\\18.jpg', 'Tesla Model X', 17000, 4, 'ENABLED', 8, 14);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (19, 'Waist-Defined Sleeveless Keyhole Romper for Women', 'product/19/19.jpg', 'Waist-Defined Sleeveless Keyhole', 60, 20, 'ENABLED', 3, 4);
+INSERT INTO `product` (`id`, `description`, `image`, `name`, `price`, `quantity`, `status`, `category_id`, `vendor_id`) VALUES (20, 'Modest Islamic Women ', 'product/20/20.png', 'Clothing dress', 500, 2, 'ENABLED', 3, 4);
 
 INSERT INTO order_detail VALUES(1, 150, 3, 1, 1);
 INSERT INTO `order` VALUES (1, DATE '2018-4-4', DATE '2018-4-4', 'ENABLED', 1, 1, 10, NULL);

@@ -109,7 +109,7 @@ public class EmailServiceImpl implements IEmailService {
 		msg.setContent("This is just to test the email module.", "text/html");
 		msg.setSentDate(new Date());
 		MimeBodyPart messageBodyPart = new MimeBodyPart();
-		messageBodyPart.setContent("Our test email. Token code: " + token, "text/html");
+		messageBodyPart.setContent("This is our test email. Token code: " + token, "text/html");
 
 		Multipart multipart = new MimeMultipart();
 		multipart.addBodyPart(messageBodyPart);
@@ -131,7 +131,7 @@ public class EmailServiceImpl implements IEmailService {
 		msg.setContent("This is just to test the email module.", "text/html");
 		msg.setSentDate(new Date());
 		MimeBodyPart messageBodyPart = new MimeBodyPart();
-		messageBodyPart.setContent("Our test email", "text/html");
+		messageBodyPart.setContent("This is from our test email", "text/html");
 
 		Multipart multipart = new MimeMultipart();
 		multipart.addBodyPart(messageBodyPart);
@@ -175,7 +175,7 @@ public class EmailServiceImpl implements IEmailService {
 		msg.setContent("This is just to test the email module.", "text/html");
 		msg.setSentDate(new Date());
 		MimeBodyPart messageBodyPart = new MimeBodyPart();
-		messageBodyPart.setContent("Our test email", "text/html");
+		messageBodyPart.setContent("This is from our test email", "text/html");
 
 		Multipart multipart = new MimeMultipart();
 		multipart.addBodyPart(messageBodyPart);
