@@ -35,7 +35,7 @@ public class TestProfileController {
     private MockMvc mockMvc;
 
     @Test
-    @WithUserDetails(value = "yeerick")
+    @WithUserDetails(value = "Eazy")
     public void changingUsernameWithExistingUsername() throws Exception{
 
         CustomerForm customerForm = new CustomerForm();

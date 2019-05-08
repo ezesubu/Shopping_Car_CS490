@@ -1,5 +1,4 @@
 package edu.mum.cs490.shoppingcart;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -13,7 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  **/
 @SpringBootApplication
 @EnableScheduling
-@ComponentScan(value= "edu.mum.cs490.shoppingcart")
+//@ComponentScan(value= "edu.mum.cs490.shoppingcart")
 public class ShoppingCartApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {

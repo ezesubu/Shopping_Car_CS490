@@ -61,12 +61,12 @@ public class TestUserSignController {
         CustomerSignUpForm signUpForm = new CustomerSignUpForm();
         VendorSignUpForm vendorSignUpForm = new VendorSignUpForm();
 
-        signUpForm.setFirstName("Erdenebayar");
-        signUpForm.setLastName("Batsukh");
-        signUpForm.setPassword("hello");
-        signUpForm.setRePassword("hello");
-        signUpForm.setUsername("erdenebayar");
-        signUpForm.setEmail("ebatsukh@mum.edu");
+        signUpForm.setFirstName("thomas");
+        signUpForm.setLastName("tibebu");
+        signUpForm.setPassword("best1212pass");
+        signUpForm.setRePassword("best1212pass");
+        signUpForm.setUsername("ttibebu2019");
+        signUpForm.setEmail("tomnetgeneraltradingplc@gmail.com");
 
         vendorSignUpForm.setCompanyName("Erdenebayar");
         vendorSignUpForm.setPassword("hello");

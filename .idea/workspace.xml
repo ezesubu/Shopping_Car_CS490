@@ -3,9 +3,50 @@
   <component name="ChangeListManager">
     <list default="true" id="7221e17f-87a6-4710-8f29-8f3c8fb20dbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/MockTransactionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/aop/TransactionAOPService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/InitBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/controller/TransactionRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/dao/TransactionDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/entity/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/entity/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/DepositRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/TransactionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/DepositService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/TransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/impl/DepositServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/impl/TransactionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/AES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/DoubleRoundUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/impl/AESImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionMockApi/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransactionMockApi/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/TransactionAOPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/TransactionAOPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/VendorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/VendorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailToVendorAndAdminObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailToVendorAndAdminObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/AESConverterUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/AESConverterUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/BufferedDataSourceUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/BufferedDataSourceUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/DoubleRoundUpUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/DoubleRoundUpUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/EmailUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/SignedUserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/SignedUserUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mail.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" afterDir="false" />
     </list>
@@ -15,6 +56,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/project$MockTransactionApplication.ic" NAME="MockTransactionApplication Coverage Results" MODIFIED="1557271278008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.mum.cs490.shoppingcart.mock.transaction.api.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,149 +80,180 @@
     <session id="-1137812274">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.90" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="6" />
           <entry key="css" value="1" />
-          <entry key="java" value="108" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="373" />
           <entry key="jrxml" value="1" />
           <entry key="jsp" value="111" />
-          <entry key="md" value="1" />
-          <entry key="properties" value="8" />
-          <entry key="sql" value="2" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="28" />
+          <entry key="sql" value="4" />
           <entry key="tag" value="2" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="6" />
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="108" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="373" />
           <entry key="JSP" value="113" />
-          <entry key="Markdown" value="1" />
-          <entry key="Properties" value="8" />
-          <entry key="SQL" value="2" />
-          <entry key="XML" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="Properties" value="28" />
+          <entry key="SQL" value="4" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="50" />
-          <entry key="java" value="279" />
+          <entry key="dummy" value="55" />
+          <entry key="java" value="1153" />
           <entry key="jsp" value="88" />
-          <entry key="properties" value="15" />
+          <entry key="properties" value="266" />
+          <entry key="sql" value="137" />
           <entry key="txt" value="51" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="279" />
+          <entry key="JAVA" value="1153" />
           <entry key="JSP" value="88" />
-          <entry key="PLAIN_TEXT" value="101" />
-          <entry key="Properties" value="15" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="Properties" value="266" />
+          <entry key="SQL" value="137" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestMailController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/EmailControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
+            <state relative-caret-position="391">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
-                <element signature="e#0#3414#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="799">
+              <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/ShoppingCartApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#635#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="578">
+              <caret line="96" column="7" lean-forward="true" selection-start-line="64" selection-end-line="96" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/EmailUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-915">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/EmailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="116">
+              <caret line="153" column="27" lean-forward="true" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/HttpSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IEmailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -188,6 +265,8 @@
       <find>2022</find>
       <find>501</find>
       <find>erdenebayar</find>
+      <find>admin</find>
+      <find>shoppingcart2019</find>
     </findStrings>
     <dirStrings>
       <dir>E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\TransactionMockApi</dir>
@@ -200,57 +279,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user/customer/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user/customer/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user/vendor/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user/vendor/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product/view.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editPassword.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editVendor.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/template/pagination.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/include.jsp" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/aop/TransactionAOPService.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/controller/TransactionRestController.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/dao/AccountDAO.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/dao/TransactionDAO.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/entity/Account.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/entity/Transaction.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/DepositRequest.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/model/TransactionRequest.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/impl/DepositServiceImpl.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/impl/TransactionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/DepositService.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/service/TransactionService.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/impl/AESImpl.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/AES.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/util/MainTest.java" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/MockTransactionApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/MockConnectionConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/project/mock/transaction/api/bean/InitBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/HttpSenderUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/HttpSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contact.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/saveProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/signUp.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mail.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/service/impl/TransactionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/service/impl/DepositServiceImpl.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/model/TransactionRequest.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/model/DepositRequest.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/entity/Transaction.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/entity/Account.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/dao/TransactionDAO.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/dao/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/controller/TransactionRestController.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/bean/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/bean/InitBean.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/aop/TransactionAOPService.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/util/impl/AESImpl.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/util/AES.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/MockTransactionApplication.java" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/TransactionMockApi/src/main/java/edu/mum/cs490/shoppingcart/mock/transaction/api/util/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProductController.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/MailConstructor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/BufferedDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/EmailUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mail.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/PasswordHashing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/TransactionAOPService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/EmailUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/VendorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/ReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailToVendorAndAdminObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/vendor/EmailControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/IEmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/EmailControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IEmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/EmailServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -283,7 +362,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,8 +440,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -371,7 +449,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -399,26 +477,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-              <item name="jpreport" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -431,188 +490,6 @@
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -630,117 +507,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shopping-Cart-CS490" type="462c0819:PsiDirectoryNode" />
-              <item name="TransactionMockApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -751,7 +522,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557244080182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557344150559" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../082 9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -760,7 +531,24 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.mum.cs490.shoppingcart" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\src\main\java\edu\mum\cs490\shoppingcart" />
+      <recent name="E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\src\main\java\edu\mum\cs490\shoppingcart\controller\vendor" />
+      <recent name="E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\src\main\java\edu\mum\cs490\shoppingcart\service\impl" />
+      <recent name="E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\src\main\java\edu\mum\cs490\shoppingcart\service" />
+      <recent name="E:\CS490-Project Management\IntellijIDEA\Shopping-Cart-CS490\src\main\java\edu\mum\cs490\shoppingcart\utility" />
+    </key>
+  </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -772,7 +560,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ProjectApplication">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.mum.cs490.shoppingcart.mock.transaction.api.util.MainTest" />
+      <module name="TransactionMockApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mum.cs490.shoppingcart.mock.transaction.api.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.mum.cs490.shoppingcart.utility.PasswordHashing" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mum.cs490.shoppingcart.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mum.cs490.shoppingcart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.mum.cs490.shoppingcart" />
+      <option name="MAIN_CLASS_NAME" value="edu.mum.cs490.shoppingcart.TestOrderController" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockTransactionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TransactionMockApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mum.cs490.shoppingcart.mock.transaction.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.mum.cs490.shoppingcart.mock.transaction.api.MockTransactionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.mum.cs490.shoppingcart.ShoppingCartApplication" />
@@ -780,6 +629,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProjectApplication" />
+      <item itemvalue="JUnit.All in project" />
+      <item itemvalue="Spring Boot.MockTransactionApplication" />
+      <item itemvalue="Application.MainTest" />
+      <item itemvalue="JUnit.TestOrderController" />
+      <item itemvalue="Application.PasswordHashing" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PasswordHashing" />
+        <item itemvalue="JUnit.TestOrderController" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Spring Boot.MockTransactionApplication" />
+        <item itemvalue="JUnit.All in project" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -792,7 +658,9 @@
       <option name="presentableId" value="Default" />
       <updated>1556910112778</updated>
       <workItem from="1556910114450" duration="16578000" />
-      <workItem from="1557093096682" duration="9432000" />
+      <workItem from="1557093096682" duration="17680000" />
+      <workItem from="1557264995743" duration="14146000" />
+      <workItem from="1557321030720" duration="16989000" />
     </task>
     <task id="LOCAL-00001" summary="Service class and security class updated">
       <created>1556930549572</created>
@@ -829,11 +697,38 @@
       <option name="project" value="LOCAL" />
       <updated>1557237940048</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Service class and security class updated">
+      <created>1557244390252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557244390252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ShoppingCartApplicationTests - 2019.05.07 at 10h 54m 41s.xml">
+      <configuration name="ShoppingCartApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingCartApplicationTests - 2019.05.07 at 11h 00m 24s.xml">
+      <configuration name="ShoppingCartApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_project - 2019.05.07 at 17h 19m 28s.xml">
+      <configuration name="All in project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_project - 2019.05.07 at 17h 20m 00s.xml">
+      <configuration name="All in project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOrderController - 2019.05.07 at 18h 57m 03s.xml">
+      <configuration name="TestOrderController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOrderController - 2019.05.07 at 19h 33m 30s.xml">
+      <configuration name="TestOrderController" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26010000" />
+    <option name="totallyTimeSpent" value="65393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -847,7 +742,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36456808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34114203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -856,19 +751,20 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3280757" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.37381703" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" visible="true" weight="0.3280757" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.5646688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3280757" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.42647058" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.60410094" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.5236593" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.055205047" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -879,6 +775,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.19619326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -896,260 +793,419 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/orderreceipt.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/ordersuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/shoppingcart.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/order/submitorder.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product/view.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editCard.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editCustomer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editPassword.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile/editVendor.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/report/reportFilter.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/template/accountSider.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/template/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/template/pagination.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/productManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/saveProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendor/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/replaceParam.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/home.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/include.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contact.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4397" column="54" lean-forward="true" selection-start-line="4397" selection-start-column="54" selection-end-line="4397" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jpreport/ChartReport.jrxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="427" column="27" lean-forward="true" selection-start-line="427" selection-start-column="27" selection-end-line="427" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/domain/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="73" lean-forward="true" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestMailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
+        <state relative-caret-position="1071">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding>
-            <element signature="e#0#3414#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="-189">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/ShoppingCartApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="323">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/CategoryRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="120">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestUserSignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="1758">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="281">
+          <caret line="37" column="62" lean-forward="true" selection-start-line="5" selection-end-line="37" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/PasswordHashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/VendorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="57" />
+          <folding>
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2381#2382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="45" column="132" selection-start-line="45" selection-start-column="132" selection-end-line="45" selection-end-column="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#3078#3079#0" expanded="true" />
+            <element signature="e#3148#3149#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3945#3946#0" expanded="true" />
+            <element signature="e#4023#4024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/OrderDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/FileManagementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="197" column="19" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/springboot/observer/MailToVendorAndAdminObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/vendor/VendorProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/SignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/PropertySource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/TestMailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/vendor/EmailControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/UserTestRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/admin/AdminCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1221">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/admin/AdminProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1255">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/admin/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3278">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/CustomErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/MockPaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/domain/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/EmailAOPService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/aop/TransactionAOPService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/Configs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/MockConnectionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/mum/cs490/shoppingcart/EmailControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/EmailUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-915">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/MailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="64" selection-end-line="96" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IMailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/ShoppingCartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/IEmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/service/impl/EmailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="153" column="27" lean-forward="true" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs490/shoppingcart/utility/HttpSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>

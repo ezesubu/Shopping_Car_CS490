@@ -19,6 +19,8 @@ import org.springframework.context.annotation.Import;
         "edu.mum.cs490.shoppingcart.controller",
         "edu.mum.cs490.shoppingcart.service",
         "edu.mum.cs490.shoppingcart.utility",
+
 })
 public class Configs {
 }
+

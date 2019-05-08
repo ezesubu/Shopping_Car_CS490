@@ -3,7 +3,8 @@ package edu.mum.cs490.shoppingcart.controller;
 import edu.mum.cs490.shoppingcart.domain.*;
 import edu.mum.cs490.shoppingcart.model.Message;
 import edu.mum.cs490.shoppingcart.model.form.user.*;
-import edu.mum.cs490.shoppingcart.service.IMailService;
+//import edu.mum.cs490.shoppingcart.service.IMailService;
+import edu.mum.cs490.shoppingcart.service.IEmailService;
 import edu.mum.cs490.shoppingcart.service.IUserService;
 import edu.mum.cs490.shoppingcart.service.IVendorService;
 import edu.mum.cs490.shoppingcart.service.impl.FileManagementService;
@@ -18,8 +19,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.mail.MessagingException;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,16 +37,19 @@ public class SignController {
 
     private final IUserService userService;
     private final PasswordEncoder passwordEncoder;
-    private final IMailService mailService;
+//    private final IMailService mailService;
     private final IVendorService vendorService;
     private final FileManagementService fileManagementService;
     private final AESConverterUtility aesConverter;
 
     @Autowired
-    public SignController(IUserService userService, PasswordEncoder passwordEncoder, IMailService mailService, IVendorService vendorService, FileManagementService fileManagementService, AESConverterUtility aesConverter) {
+    IEmailService emailServiceInterface;
+
+    @Autowired
+    public SignController(IUserService userService, PasswordEncoder passwordEncoder /*, IMailService mailService*/, IVendorService vendorService, FileManagementService fileManagementService, AESConverterUtility aesConverter) {
         this.userService = userService;
         this.passwordEncoder = passwordEncoder;
-        this.mailService = mailService;
+//        this.mailService = mailService;
         this.vendorService = vendorService;
         this.fileManagementService = fileManagementService;
         this.aesConverter = aesConverter;
@@ -64,7 +70,7 @@ public class SignController {
     }
 
     @RequestMapping(value = "signup", method = RequestMethod.POST)
-    public String signUp(@Valid @ModelAttribute("moduleForm") CustomerSignUpForm userForm, BindingResult error, ModelMap model) {
+    public String signUp(@Valid @ModelAttribute("moduleForm") CustomerSignUpForm userForm, BindingResult error, ModelMap model) throws IOException, MessagingException {
         if (error.hasErrors()) {
             model.put("message", Message.errorOccurred);
             return "signUp";
@@ -83,7 +89,8 @@ public class SignController {
         customer.setLastName(userForm.getLastName());
 
         userService.saveOrUpdate(customer);
-        mailService.sendEmailToCustomer(userForm.getEmail(), customer.getFirstName() + " " + customer.getLastName());
+        emailServiceInterface.sendEmail(userForm.getEmail(), "User sign up", customer.getFirstName() + " " + customer.getLastName());
+//        mailService.sendEmailToCustomer(userForm.getEmail(), customer.getFirstName() + " " + customer.getLastName());
         model.put("message", Message.successfullySaved);
         return "signUp";
     }

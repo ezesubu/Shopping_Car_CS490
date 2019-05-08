@@ -1,7 +1,7 @@
-# CREATE USER 'oss'@'localhost' IDENTIFIED BY 'oss';
-# GRANT ALL PRIVILEGES ON OSS.* TO 'oss'@'localhost';
-# GRANT ALL PRIVILEGES ON mock_bank_db.* TO 'oss'@'localhost';
-# FLUSH PRIVILEGES;
+-- # CREATE USER 'oss'@'localhost' IDENTIFIED BY 'oss';
+-- # GRANT ALL PRIVILEGES ON OSS.* TO 'oss'@'localhost';
+-- # GRANT ALL PRIVILEGES ON mock_bank_db.* TO 'oss'@'localhost';
+-- # FLUSH PRIVILEGES;
 
 INSERT INTO user VALUES (1 , 'ebatsukh@mum.edu', '$2a$10$snL9/9oR.u6CtqN/g5hJm.GtmHr4wx1ptuOD8.GL8wR4yvHg8Y/7O', 'ENABLED','erdenebayar');
 INSERT INTO user VALUES (3 , 'ylai@mum.edu', '$2a$10$ibMbCkRcLFo4snX8071GSuJ9bV15Jvl9wFNafEkiSBTFuFt8m9BtO', 'ENABLED', 'yeerick');

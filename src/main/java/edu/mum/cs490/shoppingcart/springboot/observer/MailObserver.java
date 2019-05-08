@@ -1,7 +1,7 @@
 package edu.mum.cs490.shoppingcart.springboot.observer;
 
 import edu.mum.cs490.shoppingcart.domain.Order;
-import edu.mum.cs490.shoppingcart.service.IMailService;
+//import edu.mum.cs490.shoppingcart.service.IMailService;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -13,11 +13,11 @@ import java.util.Observer;
 public class MailObserver implements Observer {
 
     private final Order order;
-    private final IMailService mailService;
+//    private final IMailService mailService;
 
-    public MailObserver(Order order, IMailService mailService) {
+    public MailObserver(Order order/*, IMailService mailService*/) {
         this.order = order;
-        this.mailService = mailService;
+//        this.mailService = mailService;
     }
 
     @Override
@@ -25,6 +25,6 @@ public class MailObserver implements Observer {
 
         System.out.println("Send an email to the receivers");
 
-        mailService.sendEmailToCustomerAndVendor(order);
+//        mailService.sendEmailToCustomerAndVendor(order);
     }
 }
