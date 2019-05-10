@@ -1,7 +1,4 @@
--- # CREATE USER 'oss'@'localhost' IDENTIFIED BY 'oss';
--- # GRANT ALL PRIVILEGES ON OSS.* TO 'oss'@'localhost';
--- # GRANT ALL PRIVILEGES ON mock_bank_db.* TO 'oss'@'localhost';
--- # FLUSH PRIVILEGES;
+
 
 INSERT INTO user VALUES (1 , 'masterus2018@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED','Wenxin');
 INSERT INTO user VALUES (3 , 'ezesubu@gmail.com', '$2a$10$/SyKSvFEd563XcgyLDA7reJsH91YdDhlXqGCRGe7nzOqRN1Pfu9Cy', 'ENABLED', 'Eazy');

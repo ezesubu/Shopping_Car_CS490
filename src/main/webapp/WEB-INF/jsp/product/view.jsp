@@ -28,7 +28,7 @@ Date April 20, 2019
                                 </div>
                             </div>
                             <!-- Modal view content -->
-                            <div class="col-md-7 col-sm-7 col-xs-12">
+                            <div class="col-md-10 col-sm-10 col-xs-12">
                                 <div class="aa-product-view-content">
                                     <h3>${product.name}</h3>
                                     <div class="aa-price-block">

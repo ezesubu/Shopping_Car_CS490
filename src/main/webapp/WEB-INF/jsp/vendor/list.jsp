@@ -33,7 +33,7 @@
 
                 <c:if test="${row.status eq 'ENABLED'}">
                     <a href="#delete" type="button" onclick="modules.delete('${row.id}')">
-                        <i class="glyphicon glyphicon-remove"></i>
+                        <i class="fa fa-times"></i>
                     </a>
                 </c:if>
                 <c:if test="${row.status ne 'ENABLED'}">
